@@ -1,10 +1,11 @@
+import os
 import requests
 import pandas as pd
 
 # --- Step 1: Replace these placeholders with your actual API details ---
 # Make sure the URL includes a placeholder for the API key if needed
 API_URL = "https://api.data.gov.in/resource/3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69"
-API_KEY = "579b464db66ec23bdd0000017faa99dc3b74409757159cd6a2cc68a5"
+API_KEY = os.environ.get("DATA_GOV_API_KEY")
 
 # Example of how to structure the final URL with the key
 # Most data.gov.in APIs look something like this:
