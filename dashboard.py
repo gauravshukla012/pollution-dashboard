@@ -36,13 +36,13 @@ latest_update = df['last_update'].max().strftime('%B %d, %Y at %I:%M %p')
 st.markdown(f"*Last data update: **{latest_update}***")
 st.markdown("---")
 
-# --- National & State-Level Analysis (MOVED TO TOP) ---
+# --- National & State-Level Analysis (NOW AT THE TOP) ---
 st.header("🌎 National & State Comparison")
 pollutants = sorted(df['pollutant_id'].unique())
 selected_pollutant = st.selectbox('Select a Pollutant for Comparison', pollutants, index=pollutants.index('PM2.5'))
 filtered_df = df[df['pollutant_id'] == selected_pollutant]
 
-# --- Enhanced KPIs ---
+# --- KPIs (NOW AT THE TOP) ---
 if not filtered_df.empty:
     station_count = filtered_df['station'].nunique()
     national_avg = filtered_df['avg_value'].mean()
@@ -57,9 +57,9 @@ if not filtered_df.empty:
     col3.metric("Most Polluted City", most_polluted_city)
     col4.metric("Least Polluted City", least_polluted_city)
 else:
-    st.warning("No data available for the selected filters.")
+    st.warning("No data available for the selected pollutant.")
 
-# --- Colorful Visualizations ---
+# --- Comparison Visualizations ---
 if not filtered_df.empty:
     col1, col2 = st.columns(2)
     with col1:
@@ -72,3 +72,41 @@ if not filtered_df.empty:
         st.plotly_chart(fig_bar_cities, use_container_width=True)
     with col2:
         st.subheader(f"State-wise Average Pollution ({selected_pollutant})")
+        state_avg = filtered_df.groupby('state')['avg_value'].mean().sort_values(ascending=False)
+        fig_bar_states = go.Figure(go.Bar(
+            x=state_avg.index, y=state_avg.values,
+            marker=dict(color=state_avg.values, colorscale='Plasma')))
+        st.plotly_chart(fig_bar_states, use_container_width=True)
+
+st.markdown("---")
+
+# --- City-Specific Analysis (NOW BELOW) ---
+st.header(f"📍 Deep Dive: {selected_city}, {selected_state}")
+city_df = df[df['city'] == selected_city]
+if not city_df.empty:
+    pm25_data = city_df[city_df['pollutant_id'] == 'PM2.5'].iloc[0] if not city_df[city_df['pollutant_id'] == 'PM2.5'].empty else None
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("PM2.5 Level Gauge")
+        if pm25_data is not None:
+            fig_gauge = go.Figure(go.Indicator(
+                mode="gauge+number", value=pm25_data['avg_value'], title={'text': "PM2.5 (μg/m³)"},
+                gauge={'axis': {'range': [None, 250]}, 'bar': {'color': "darkblue"},
+                       'steps': [{'range': [0, 30], 'color': 'green'}, {'range': [30, 60], 'color': 'yellow'},
+                                 {'range': [60, 90], 'color': 'orange'}, {'range': [90, 120], 'color': 'red'},
+                                 {'range': [120, 250], 'color': 'purple'}]}))
+            st.plotly_chart(fig_gauge, use_container_width=True)
+        else:
+            st.info("No PM2.5 data available for this city.")
+    with col2:
+        st.subheader("Pollutant Mix")
+        pollutant_mix = city_df[['pollutant_id', 'avg_value']].groupby('pollutant_id').mean().reset_index()
+        fig_donut = go.Figure(data=[go.Pie(labels=pollutant_mix['pollutant_id'], values=pollutant_mix['avg_value'], hole=.4)])
+        fig_donut.update_traces(textinfo='percent+label', hoverinfo='label+percent+value')
+        st.plotly_chart(fig_donut, use_container_width=True)
+else:
+    st.warning("No data available for the selected city.")
+
+# --- Detailed Data View (AT THE END) ---
+with st.expander("View Detailed Data Table"):
+    st.dataframe(filtered_df)
