@@ -8,8 +8,7 @@ st.set_page_config(
     page_title="India Air Quality Dashboard Final",
     page_icon="💨",
     layout="wide",
-    initial_sidebar_state="expanded",
-    theme="dark" # Sets the default theme to dark for all users
+    initial_sidebar_state="expanded"
 )
 
 # --- Data Loading and Cleaning ---
