@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+import plotly.express as px
 
 # --- Page Configuration ---
 st.set_page_config(
@@ -36,13 +37,13 @@ latest_update = df['last_update'].max().strftime('%B %d, %Y at %I:%M %p')
 st.markdown(f"*Last data update: **{latest_update}***")
 st.markdown("---")
 
-# --- National & State-Level Analysis (NOW AT THE TOP) ---
+# --- National & State-Level Analysis ---
 st.header("🌎 National & State Comparison")
 pollutants = sorted(df['pollutant_id'].unique())
 selected_pollutant = st.selectbox('Select a Pollutant for Comparison', pollutants, index=pollutants.index('PM2.5'))
 filtered_df = df[df['pollutant_id'] == selected_pollutant]
 
-# --- KPIs (NOW AT THE TOP) ---
+# --- KPIs ---
 if not filtered_df.empty:
     station_count = filtered_df['station'].nunique()
     national_avg = filtered_df['avg_value'].mean()
@@ -56,8 +57,6 @@ if not filtered_df.empty:
     col2.metric(f"National Average ({selected_pollutant})", f"{national_avg:.2f}")
     col3.metric("Most Polluted City", most_polluted_city)
     col4.metric("Least Polluted City", least_polluted_city)
-else:
-    st.warning("No data available for the selected pollutant.")
 
 # --- Comparison Visualizations ---
 if not filtered_df.empty:
@@ -80,7 +79,7 @@ if not filtered_df.empty:
 
 st.markdown("---")
 
-# --- City-Specific Analysis (NOW BELOW) ---
+# --- City-Specific Analysis ---
 st.header(f"📍 Deep Dive: {selected_city}, {selected_state}")
 city_df = df[df['city'] == selected_city]
 if not city_df.empty:
@@ -107,6 +106,27 @@ if not city_df.empty:
 else:
     st.warning("No data available for the selected city.")
 
-# --- Detailed Data View (AT THE END) ---
+# --- NEW: NATIONWIDE MAP ---
+if not filtered_df.empty:
+    st.markdown("---")
+    st.header(f"🗺️ Nationwide Station Map for {selected_pollutant}")
+    
+    # Create the map using Plotly Express
+    fig_map = px.scatter_mapbox(filtered_df,
+                                lat="latitude",
+                                lon="longitude",
+                                color="avg_value",
+                                size="avg_value",
+                                hover_name="station",
+                                hover_data=["city", "state", "avg_value"],
+                                color_continuous_scale=px.colors.cyclical.IceFire,
+                                size_max=15,
+                                zoom=4,
+                                mapbox_style="carto-positron",
+                                center={"lat": 20.5937, "lon": 78.9629}) # Center on India
+    
+    st.plotly_chart(fig_map, use_container_width=True)
+
+# --- Detailed Data View ---
 with st.expander("View Detailed Data Table"):
     st.dataframe(filtered_df)
