@@ -5,7 +5,7 @@ import plotly.express as px
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="India Air Quality Dashboard Final",
+    page_title="National Air Quality Dashboard",
     page_icon="💨",
     layout="wide",
     initial_sidebar_state="expanded"
