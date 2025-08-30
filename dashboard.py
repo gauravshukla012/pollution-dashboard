@@ -8,8 +8,8 @@ st.set_page_config(
     page_title="India Air Quality Dashboard Final",
     page_icon="💨",
     layout="wide",
-    initial_sidebar_state="expanded"
-    theme="dark"
+    initial_sidebar_state="expanded",
+    theme="dark" # Sets the default theme to dark for all users
 )
 
 # --- Data Loading and Cleaning ---
@@ -60,7 +60,7 @@ if not filtered_df.empty:
 
 st.markdown("---")
 
-# --- City-Specific Analysis (NOW AT THE TOP) ---
+# --- City-Specific Analysis ---
 st.header(f"📍 Deep Dive: {selected_city}, {selected_state}")
 city_df = df[df['city'] == selected_city]
 if not city_df.empty:
@@ -89,7 +89,7 @@ else:
 
 st.markdown("---")
 
-# --- National Comparison Visualizations (NOW BELOW DEEP DIVE) ---
+# --- National Comparison Visualizations ---
 st.header("🌎 National Comparison Charts")
 if not filtered_df.empty:
     col1, col2 = st.columns(2)
