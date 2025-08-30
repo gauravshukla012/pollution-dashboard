@@ -37,13 +37,12 @@ latest_update = df['last_update'].max().strftime('%B %d, %Y at %I:%M %p')
 st.markdown(f"*Last data update: **{latest_update}***")
 st.markdown("---")
 
-# --- National & State-Level Analysis ---
-st.header("🌎 National & State Comparison")
+# --- KPIs ---
+st.header("📊 National Snapshot")
 pollutants = sorted(df['pollutant_id'].unique())
-selected_pollutant = st.selectbox('Select a Pollutant for Comparison', pollutants, index=pollutants.index('PM2.5'))
+selected_pollutant = st.selectbox('Select a Pollutant for National KPIs & Comparison', pollutants, index=pollutants.index('PM2.5'))
 filtered_df = df[df['pollutant_id'] == selected_pollutant]
 
-# --- KPIs ---
 if not filtered_df.empty:
     station_count = filtered_df['station'].nunique()
     national_avg = filtered_df['avg_value'].mean()
@@ -58,28 +57,9 @@ if not filtered_df.empty:
     col3.metric("Most Polluted City", most_polluted_city)
     col4.metric("Least Polluted City", least_polluted_city)
 
-# --- Comparison Visualizations ---
-if not filtered_df.empty:
-    col1, col2 = st.columns(2)
-    with col1:
-        st.subheader(f"Top 10 Most Polluted Cities ({selected_pollutant})")
-        top_cities = filtered_df.groupby('city')['avg_value'].mean().nlargest(10).sort_values()
-        fig_bar_cities = go.Figure(go.Bar(
-            x=top_cities.values, y=top_cities.index, orientation='h',
-            marker=dict(color=top_cities.values, colorscale='Plasma')))
-        fig_bar_cities.update_layout(yaxis={'categoryorder':'total ascending'})
-        st.plotly_chart(fig_bar_cities, use_container_width=True)
-    with col2:
-        st.subheader(f"State-wise Average Pollution ({selected_pollutant})")
-        state_avg = filtered_df.groupby('state')['avg_value'].mean().sort_values(ascending=False)
-        fig_bar_states = go.Figure(go.Bar(
-            x=state_avg.index, y=state_avg.values,
-            marker=dict(color=state_avg.values, colorscale='Plasma')))
-        st.plotly_chart(fig_bar_states, use_container_width=True)
-
 st.markdown("---")
 
-# --- City-Specific Analysis ---
+# --- City-Specific Analysis (NOW AT THE TOP) ---
 st.header(f"📍 Deep Dive: {selected_city}, {selected_state}")
 city_df = df[df['city'] == selected_city]
 if not city_df.empty:
@@ -106,26 +86,42 @@ if not city_df.empty:
 else:
     st.warning("No data available for the selected city.")
 
-# --- NEW: NATIONWIDE MAP ---
+st.markdown("---")
+
+# --- National Comparison Visualizations (NOW BELOW DEEP DIVE) ---
+st.header("🌎 National Comparison Charts")
 if not filtered_df.empty:
-    st.markdown("---")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader(f"Top 10 Most Polluted Cities ({selected_pollutant})")
+        top_cities = filtered_df.groupby('city')['avg_value'].mean().nlargest(10).sort_values()
+        fig_bar_cities = go.Figure(go.Bar(
+            x=top_cities.values, y=top_cities.index, orientation='h',
+            marker=dict(color=top_cities.values, colorscale='Plasma')))
+        fig_bar_cities.update_layout(yaxis={'categoryorder':'total ascending'})
+        st.plotly_chart(fig_bar_cities, use_container_width=True)
+    with col2:
+        st.subheader(f"State-wise Average Pollution ({selected_pollutant})")
+        state_avg = filtered_df.groupby('state')['avg_value'].mean().sort_values(ascending=False)
+        fig_bar_states = go.Figure(go.Bar(
+            x=state_avg.index, y=state_avg.values,
+            marker=dict(color=state_avg.values, colorscale='Plasma')))
+        st.plotly_chart(fig_bar_states, use_container_width=True)
+
+# --- NATIONWIDE MAP ---
+if not filtered_df.empty:
     st.header(f"🗺️ Nationwide Station Map for {selected_pollutant}")
-    
-    # Create the map using Plotly Express
     fig_map = px.scatter_mapbox(filtered_df,
-                                lat="latitude",
-                                lon="longitude",
-                                color="avg_value",
-                                size="avg_value",
-                                hover_name="station",
+                                lat="latitude", lon="longitude", color="avg_value",
+                                size="avg_value", hover_name="station",
                                 hover_data=["city", "state", "avg_value"],
                                 color_continuous_scale=px.colors.cyclical.IceFire,
-                                size_max=15,
-                                zoom=4,
+                                size_max=15, zoom=4,
                                 mapbox_style="carto-positron",
-                                center={"lat": 20.5937, "lon": 78.9629}) # Center on India
-    
+                                center={"lat": 20.5937, "lon": 78.9629})
     st.plotly_chart(fig_map, use_container_width=True)
+
+st.markdown("---")
 
 # --- Detailed Data View ---
 with st.expander("View Detailed Data Table"):
