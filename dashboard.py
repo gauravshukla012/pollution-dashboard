@@ -32,7 +32,7 @@ cities_in_state = sorted(df[df['state'] == selected_state]['city'].unique())
 selected_city = st.sidebar.selectbox('Select a City', cities_in_state)
 
 # --- Main Dashboard ---
-st.title("🇮🇳 Final Air Quality Dashboard")
+st.title("National Air Quality Dashboard")
 latest_update = df['last_update'].max().strftime('%B %d, %Y at %I:%M %p')
 st.markdown(f"*Last data update: **{latest_update}***")
 st.markdown("---")
