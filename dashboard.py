@@ -38,7 +38,7 @@ st.markdown(f"*Last data update: **{latest_update}***")
 st.markdown("---")
 
 # --- KPIs ---
-st.header("📊 National Snapshot")
+st.header("National Snapshot")
 pollutants = sorted(df['pollutant_id'].unique())
 selected_pollutant = st.selectbox('Select a Pollutant for National KPIs & Comparison', pollutants, index=pollutants.index('PM2.5'))
 filtered_df = df[df['pollutant_id'] == selected_pollutant]
@@ -60,7 +60,7 @@ if not filtered_df.empty:
 st.markdown("---")
 
 # --- City-Specific Analysis ---
-st.header(f"📍 Deep Dive: {selected_city}, {selected_state}")
+st.header(f"Deep Dive: {selected_city}, {selected_state}")
 city_df = df[df['city'] == selected_city]
 if not city_df.empty:
     pm25_data = city_df[city_df['pollutant_id'] == 'PM2.5'].iloc[0] if not city_df[city_df['pollutant_id'] == 'PM2.5'].empty else None
@@ -89,7 +89,7 @@ else:
 st.markdown("---")
 
 # --- National Comparison Visualizations ---
-st.header("🌎 National Comparison Charts")
+st.header("National Comparison Charts")
 if not filtered_df.empty:
     col1, col2 = st.columns(2)
     with col1:
@@ -110,7 +110,7 @@ if not filtered_df.empty:
 
 # --- NATIONWIDE MAP ---
 if not filtered_df.empty:
-    st.header(f"🗺️ Nationwide Station Map for {selected_pollutant}")
+    st.header(f"Nationwide Station Map for {selected_pollutant}")
     fig_map = px.scatter_mapbox(filtered_df,
                                 lat="latitude", lon="longitude", color="avg_value",
                                 size="avg_value", hover_name="station",
