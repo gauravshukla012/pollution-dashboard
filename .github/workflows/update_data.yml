@@ -31,6 +31,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git add pollution_history.db # <-- THIS LINE IS NOW CORRECTED
+          git add pollution_data.csv # <-- REVERTED TO THE CSV FILE
           git commit -m "Automated daily data update" || exit 0
           git push

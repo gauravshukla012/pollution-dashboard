@@ -1,7 +1,6 @@
 import os
 import requests
 import pandas as pd
-import sqlite3  # <-- 1. IMPORT THE SQLITE LIBRARY
 
 def fetch_data():
     """Fetches data from the API and returns it as a list of records."""
@@ -23,31 +22,19 @@ def fetch_data():
         return None
 
 def process_and_save_data(records):
-    """Processes the data and appends it to an SQLite database."""
+    """Processes the data and saves it to a CSV file."""
     if not records:
         print("No records to process. Exiting.")
         return
 
     df = pd.DataFrame(records)
     print(f"Successfully converted {len(df)} records into a DataFrame.")
+    
+    # Save the cleaned data to a CSV file, overwriting it each time
+    df.to_csv('pollution_data.csv', index=False)
+    print("\nData successfully saved to pollution_data.csv!")
 
-    # --- 2. REPLACE THE CSV SAVING LOGIC WITH DATABASE LOGIC ---
-    try:
-        # Connect to the SQLite database. A file named 'pollution_history.db' will be created.
-        conn = sqlite3.connect('pollution_history.db')
-        
-        # Append the new data to a table named 'daily_readings'.
-        # if_exists='append' is the key part that adds new data without deleting the old.
-        df.to_sql('daily_readings', conn, if_exists='append', index=False)
-        
-        # Close the connection to the database
-        conn.close()
-        
-        print(f"\nSuccessfully appended {len(df)} new records to pollution_history.db!")
-    except Exception as e:
-        print(f"An error occurred while saving to the database: {e}")
 
-# --- This is the main part of the script that runs everything ---
 if __name__ == "__main__":
     api_records = fetch_data()
     if api_records:
