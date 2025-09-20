@@ -28,6 +28,13 @@ def process_and_save_data(records):
         return
 
     df = pd.DataFrame(records)
+
+    # --- ADD THIS LINE TO DEBUG ---
+    print("Checking the 'last_update' from the first record downloaded:", df['last_update'].iloc[0])
+
+    print(f"Successfully converted {len(df)} records into a DataFrame.")
+    # ... (rest of the function)
+
     print(f"Successfully converted {len(df)} records into a DataFrame.")
     
     # Save the cleaned data to a CSV file, overwriting it each time
