@@ -1,104 +1,1001 @@
 country,state,city,station,last_update,latitude,longitude,pollutant_id,min_value,max_value,avg_value
-India,Andaman and Nicobar,Sri Vijaya Puram,"Police Line, Sri Vijaya Puram - ANPCC",30-12-2025 08:00:00,11.654054,92.734055,PM10,NA,NA,NA
-India,Andhra_Pradesh,Amaravati,"Secretariat, Amaravati - APPCB",30-12-2025 08:00:00,16.5150833,80.5181667,CO,24,67,52
-India,Andhra_Pradesh,Amaravati,"Secretariat, Amaravati - APPCB",30-12-2025 08:00:00,16.5150833,80.5181667,OZONE,1,61,9
-India,Andhra_Pradesh,Anantapur,"Gulzarpet, Anantapur - APPCB",30-12-2025 08:00:00,14.675886,77.593027,NO2,17,26,22
-India,Andhra_Pradesh,Anantapur,"Gulzarpet, Anantapur - APPCB",30-12-2025 08:00:00,14.675886,77.593027,SO2,11,17,13
-India,Andhra_Pradesh,Kadapa,"Yerramukkapalli, Kadapa - APPCB",30-12-2025 08:00:00,14.465052,78.824187,NO2,NA,NA,NA
-India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",30-12-2025 08:00:00,16.9872867,81.7363176,OZONE,11,28,16
-India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",30-12-2025 08:00:00,13.67,79.35,PM2.5,238,305,269
-India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB",30-12-2025 08:00:00,13.615387,79.409230,PM10,22,121,75
-India,Andhra_Pradesh,Vijayawada,"Kanuru, Vijayawada - APPCB",30-12-2025 08:00:00,16.486692,80.699436,SO2,NA,NA,NA
-India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",30-12-2025 08:00:00,16.509717,80.612222,PM10,58,128,106
-India,Andhra_Pradesh,Vijayawada,"Rajiv Nagar, Vijayawada - APPCB",30-12-2025 08:00:00,16.554731,80.649110,OZONE,14,18,14
-India,Andhra_Pradesh,Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB",30-12-2025 08:00:00,17.72,83.3,SO2,12,32,23
-India,Andhra_Pradesh,Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB",30-12-2025 08:00:00,17.72,83.3,OZONE,5,95,36
-India,Andaman and Nicobar,Sri Vijaya Puram,"Police Line, Sri Vijaya Puram - ANPCC",30-12-2025 08:00:00,11.654054,92.734055,SO2,NA,NA,NA
-India,Andaman and Nicobar,Sri Vijaya Puram,"Police Line, Sri Vijaya Puram - ANPCC",30-12-2025 08:00:00,11.654054,92.734055,CO,NA,NA,NA
-India,Andhra_Pradesh,Amaravati,"Secretariat, Amaravati - APPCB",30-12-2025 08:00:00,16.5150833,80.5181667,NO2,21,106,59
-India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",30-12-2025 08:00:00,13.204880,79.097889,PM10,43,135,93
-India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",30-12-2025 08:00:00,13.204880,79.097889,NH3,5,5,5
-India,Andhra_Pradesh,Kadapa,"Yerramukkapalli, Kadapa - APPCB",30-12-2025 08:00:00,14.465052,78.824187,PM2.5,NA,NA,NA
-India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",30-12-2025 08:00:00,16.9872867,81.7363176,PM2.5,183,310,260
-India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",30-12-2025 08:00:00,16.9872867,81.7363176,PM10,131,182,153
-India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",30-12-2025 08:00:00,13.67,79.35,NH3,1,2,2
-India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",30-12-2025 08:00:00,13.67,79.35,OZONE,6,127,76
-India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB",30-12-2025 08:00:00,13.615387,79.409230,NO2,30,36,32
-India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB",30-12-2025 08:00:00,13.615387,79.409230,SO2,15,21,17
-India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB",30-12-2025 08:00:00,13.615387,79.409230,CO,27,44,39
-India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB",30-12-2025 08:00:00,16.536107,80.594233,OZONE,NA,NA,NA
-India,Andhra_Pradesh,Vijayawada,"Kanuru, Vijayawada - APPCB",30-12-2025 08:00:00,16.486692,80.699436,PM2.5,NA,NA,NA
-India,Andhra_Pradesh,Vijayawada,"Kanuru, Vijayawada - APPCB",30-12-2025 08:00:00,16.486692,80.699436,PM10,NA,NA,NA
-India,Andhra_Pradesh,Vijayawada,"Kanuru, Vijayawada - APPCB",30-12-2025 08:00:00,16.486692,80.699436,NO2,NA,NA,NA
-India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",30-12-2025 08:00:00,16.509717,80.612222,PM2.5,59,161,113
-India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",30-12-2025 08:00:00,16.509717,80.612222,CO,28,43,35
-India,Andhra_Pradesh,Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB",30-12-2025 08:00:00,17.72,83.3,CO,44,102,65
-India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",30-12-2025 08:00:00,27.103358,93.679645,OZONE,5,6,5
-India,Assam,Byrnihat,"Central Academy for SFS, Byrnihat - PCBA",30-12-2025 08:00:00,26.071318,91.87488,PM10,71,108,84
-India,Andaman and Nicobar,Sri Vijaya Puram,"Police Line, Sri Vijaya Puram - ANPCC",30-12-2025 08:00:00,11.654054,92.734055,OZONE,NA,NA,NA
-India,Andhra_Pradesh,Amaravati,"Secretariat, Amaravati - APPCB",30-12-2025 08:00:00,16.5150833,80.5181667,PM2.5,118,300,193
-India,Andhra_Pradesh,Amaravati,"Secretariat, Amaravati - APPCB",30-12-2025 08:00:00,16.5150833,80.5181667,NH3,4,9,7
-India,Andhra_Pradesh,Anantapur,"Gulzarpet, Anantapur - APPCB",30-12-2025 08:00:00,14.675886,77.593027,PM2.5,40,196,108
-India,Andhra_Pradesh,Anantapur,"Gulzarpet, Anantapur - APPCB",30-12-2025 08:00:00,14.675886,77.593027,OZONE,32,80,45
-India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",30-12-2025 08:00:00,13.204880,79.097889,OZONE,49,67,62
-India,Andhra_Pradesh,Kadapa,"Yerramukkapalli, Kadapa - APPCB",30-12-2025 08:00:00,14.465052,78.824187,NH3,NA,NA,NA
-India,Andhra_Pradesh,Kadapa,"Yerramukkapalli, Kadapa - APPCB",30-12-2025 08:00:00,14.465052,78.824187,SO2,NA,NA,NA
-India,Andhra_Pradesh,Kadapa,"Yerramukkapalli, Kadapa - APPCB",30-12-2025 08:00:00,14.465052,78.824187,OZONE,NA,NA,NA
-India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",30-12-2025 08:00:00,16.9872867,81.7363176,NO2,20,54,35
-India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",30-12-2025 08:00:00,16.9872867,81.7363176,NH3,5,7,5
-India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",30-12-2025 08:00:00,13.67,79.35,NO2,11,36,20
-India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",30-12-2025 08:00:00,13.67,79.35,SO2,3,10,6
-India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB",30-12-2025 08:00:00,13.615387,79.409230,NH3,4,4,4
-India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB",30-12-2025 08:00:00,13.615387,79.409230,OZONE,14,24,24
-India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB",30-12-2025 08:00:00,16.536107,80.594233,PM2.5,36,76,55
-India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB",30-12-2025 08:00:00,16.536107,80.594233,NO2,22,32,27
-India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB",30-12-2025 08:00:00,16.536107,80.594233,SO2,10,19,15
-India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",30-12-2025 08:00:00,16.509717,80.612222,SO2,7,20,16
-India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",30-12-2025 08:00:00,16.509717,80.612222,OZONE,1,39,1
-India,Andhra_Pradesh,Vijayawada,"Rajiv Nagar, Vijayawada - APPCB",30-12-2025 08:00:00,16.554731,80.649110,PM2.5,54,118,81
-India,Andhra_Pradesh,Vijayawada,"Rajiv Nagar, Vijayawada - APPCB",30-12-2025 08:00:00,16.554731,80.649110,PM10,71,114,88
-India,Andhra_Pradesh,Vijayawada,"Rajiv Nagar, Vijayawada - APPCB",30-12-2025 08:00:00,16.554731,80.649110,NO2,18,29,21
-India,Andhra_Pradesh,Vijayawada,"Rajiv Nagar, Vijayawada - APPCB",30-12-2025 08:00:00,16.554731,80.649110,CO,38,50,46
-India,Andhra_Pradesh,Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB",30-12-2025 08:00:00,17.72,83.3,NO2,21,151,63
-India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",30-12-2025 08:00:00,27.103358,93.679645,PM10,50,182,107
-India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",30-12-2025 08:00:00,27.103358,93.679645,NO2,6,7,7
-India,Assam,Byrnihat,"Central Academy for SFS, Byrnihat - PCBA",30-12-2025 08:00:00,26.071318,91.87488,PM2.5,94,199,126
-India,Assam,Byrnihat,"Central Academy for SFS, Byrnihat - PCBA",30-12-2025 08:00:00,26.071318,91.87488,SO2,3,32,30
-India,Andaman and Nicobar,Sri Vijaya Puram,"Police Line, Sri Vijaya Puram - ANPCC",30-12-2025 08:00:00,11.654054,92.734055,NO2,NA,NA,NA
-India,Andhra_Pradesh,Amaravati,"Secretariat, Amaravati - APPCB",30-12-2025 08:00:00,16.5150833,80.5181667,PM10,124,349,181
-India,Andhra_Pradesh,Amaravati,"Secretariat, Amaravati - APPCB",30-12-2025 08:00:00,16.5150833,80.5181667,SO2,8,34,13
-India,Andhra_Pradesh,Anantapur,"Gulzarpet, Anantapur - APPCB",30-12-2025 08:00:00,14.675886,77.593027,PM10,33,137,93
-India,Andhra_Pradesh,Anantapur,"Gulzarpet, Anantapur - APPCB",30-12-2025 08:00:00,14.675886,77.593027,CO,18,54,23
-India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",30-12-2025 08:00:00,13.204880,79.097889,PM2.5,49,205,101
-India,Andhra_Pradesh,Kadapa,"Yerramukkapalli, Kadapa - APPCB",30-12-2025 08:00:00,14.465052,78.824187,PM10,NA,NA,NA
-India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",30-12-2025 08:00:00,13.67,79.35,PM10,120,141,131
-India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB",30-12-2025 08:00:00,16.536107,80.594233,PM10,35,83,58
-India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB",30-12-2025 08:00:00,16.536107,80.594233,NH3,4,5,5
-India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB",30-12-2025 08:00:00,16.536107,80.594233,CO,19,44,19
-India,Andhra_Pradesh,Vijayawada,"Kanuru, Vijayawada - APPCB",30-12-2025 08:00:00,16.486692,80.699436,OZONE,35,35,35
-India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",30-12-2025 08:00:00,16.509717,80.612222,NO2,31,93,55
-India,Andhra_Pradesh,Vijayawada,"Rajiv Nagar, Vijayawada - APPCB",30-12-2025 08:00:00,16.554731,80.649110,SO2,14,16,15
-India,Andhra_Pradesh,Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB",30-12-2025 08:00:00,17.72,83.3,PM2.5,210,360,276
-India,Andhra_Pradesh,Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB",30-12-2025 08:00:00,17.72,83.3,PM10,146,451,218
-India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",30-12-2025 08:00:00,27.103358,93.679645,PM2.5,2,292,120
-India,Assam,Byrnihat,"Central Academy for SFS, Byrnihat - PCBA",30-12-2025 08:00:00,26.071318,91.87488,NH3,3,4,4
-India,Andaman and Nicobar,Sri Vijaya Puram,"Police Line, Sri Vijaya Puram - ANPCC",30-12-2025 08:00:00,11.654054,92.734055,PM2.5,NA,NA,NA
-India,Andaman and Nicobar,Sri Vijaya Puram,"Police Line, Sri Vijaya Puram - ANPCC",30-12-2025 08:00:00,11.654054,92.734055,NH3,NA,NA,NA
-India,Andhra_Pradesh,Anantapur,"Gulzarpet, Anantapur - APPCB",30-12-2025 08:00:00,14.675886,77.593027,NH3,4,5,4
-India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",30-12-2025 08:00:00,13.204880,79.097889,NO2,38,46,44
-India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",30-12-2025 08:00:00,13.204880,79.097889,SO2,6,35,15
-India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",30-12-2025 08:00:00,13.204880,79.097889,CO,24,55,29
-India,Andhra_Pradesh,Kadapa,"Yerramukkapalli, Kadapa - APPCB",30-12-2025 08:00:00,14.465052,78.824187,CO,NA,NA,NA
-India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",30-12-2025 08:00:00,16.9872867,81.7363176,SO2,9,23,16
-India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",30-12-2025 08:00:00,16.9872867,81.7363176,CO,30,70,46
-India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",30-12-2025 08:00:00,13.67,79.35,CO,24,57,40
-India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB",30-12-2025 08:00:00,13.615387,79.409230,PM2.5,21,154,77
-India,Andhra_Pradesh,Vijayawada,"Kanuru, Vijayawada - APPCB",30-12-2025 08:00:00,16.486692,80.699436,NH3,NA,NA,NA
-India,Andhra_Pradesh,Vijayawada,"Kanuru, Vijayawada - APPCB",30-12-2025 08:00:00,16.486692,80.699436,CO,50,78,73
-India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",30-12-2025 08:00:00,16.509717,80.612222,NH3,1,6,5
-India,Andhra_Pradesh,Vijayawada,"Rajiv Nagar, Vijayawada - APPCB",30-12-2025 08:00:00,16.554731,80.649110,NH3,4,7,5
-India,Andhra_Pradesh,Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB",30-12-2025 08:00:00,17.72,83.3,NH3,4,4,4
-India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",30-12-2025 08:00:00,27.103358,93.679645,NH3,NA,NA,NA
-India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",30-12-2025 08:00:00,27.103358,93.679645,SO2,9,10,9
-India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",30-12-2025 08:00:00,27.103358,93.679645,CO,10,62,26
-India,Assam,Byrnihat,"Central Academy for SFS, Byrnihat - PCBA",30-12-2025 08:00:00,26.071318,91.87488,NO2,4,8,6
+India,Andhra_Pradesh,Amaravati,"Secretariat, Amaravati - APPCB",31-12-2025 08:00:00,16.5150833,80.5181667,NO2,26,103,51
+India,Andhra_Pradesh,Anantapur,"Gulzarpet, Anantapur - APPCB",31-12-2025 08:00:00,14.675886,77.593027,NO2,11,23,15
+India,Andhra_Pradesh,Anantapur,"Gulzarpet, Anantapur - APPCB",31-12-2025 08:00:00,14.675886,77.593027,OZONE,28,77,36
+India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",31-12-2025 08:00:00,13.204880,79.097889,NO2,43,46,45
+India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",31-12-2025 08:00:00,13.204880,79.097889,NH3,5,5,5
+India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",31-12-2025 08:00:00,16.9872867,81.7363176,NO2,16,54,32
+India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",31-12-2025 08:00:00,16.9872867,81.7363176,SO2,6,36,17
+India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",31-12-2025 08:00:00,16.9872867,81.7363176,OZONE,10,33,14
+India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",31-12-2025 08:00:00,13.67,79.35,PM2.5,234,333,299
+India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",31-12-2025 08:00:00,13.67,79.35,NH3,1,2,2
+India,Andhra_Pradesh,Vijayawada,"Rajiv Nagar, Vijayawada - APPCB",31-12-2025 08:00:00,16.554731,80.649110,NO2,18,29,22
+India,Andhra_Pradesh,Vijayawada,"Rajiv Nagar, Vijayawada - APPCB",31-12-2025 08:00:00,16.554731,80.649110,NH3,4,5,5
+India,Andhra_Pradesh,Vijayawada,"Rajiv Nagar, Vijayawada - APPCB",31-12-2025 08:00:00,16.554731,80.649110,SO2,13,20,15
+India,Andhra_Pradesh,Kadapa,"Yerramukkapalli, Kadapa - APPCB",31-12-2025 08:00:00,14.465052,78.824187,SO2,11,17,12
+India,Andhra_Pradesh,Kadapa,"Yerramukkapalli, Kadapa - APPCB",31-12-2025 08:00:00,14.465052,78.824187,CO,30,48,32
+India,Andhra_Pradesh,Kadapa,"Yerramukkapalli, Kadapa - APPCB",31-12-2025 08:00:00,14.465052,78.824187,OZONE,20,22,21
+India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",31-12-2025 08:00:00,13.67,79.35,CO,24,62,46
+India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",31-12-2025 08:00:00,13.67,79.35,OZONE,16,301,102
+India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",31-12-2025 08:00:00,16.509717,80.612222,PM2.5,71,171,90
+India,Andhra_Pradesh,Vijayawada,"Rajiv Nagar, Vijayawada - APPCB",31-12-2025 08:00:00,16.554731,80.649110,PM10,69,101,83
+India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB",31-12-2025 08:00:00,16.536107,80.594233,NO2,17,27,20
+India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB",31-12-2025 08:00:00,13.615387,79.409230,SO2,12,17,14
+India,Andhra_Pradesh,Vijayawada,"Kanuru, Vijayawada - APPCB",31-12-2025 08:00:00,16.486692,80.699436,NH3,1,3,3
+India,Assam,Silchar,"Tarapur, Silchar - PCBA",31-12-2025 08:00:00,24.82827,92.79525,SO2,4,6,5
+India,Assam,Sivasagar,"Girls College, Sivasagar - PCBA",31-12-2025 08:00:00,26.987634,94.636574,PM2.5,32,81,50
+India,Bihar,Araria,"Kharahiya Basti, Araria - BSPCB",31-12-2025 08:00:00,26.146529,87.454184,NO2,1,50,10
+India,Assam,Nagaon,"Christianpatty, Nagaon - PCBA",31-12-2025 08:00:00,26.349082,92.68449,PM10,71,146,124
+India,Assam,Nagaon,"Christianpatty, Nagaon - PCBA",31-12-2025 08:00:00,26.349082,92.68449,CO,10,24,24
+India,Assam,Silchar,"Tarapur, Silchar - PCBA",31-12-2025 08:00:00,24.82827,92.79525,PM10,38,76,55
+India,Assam,Byrnihat,"Central Academy for SFS, Byrnihat - PCBA",31-12-2025 08:00:00,26.071318,91.87488,PM2.5,95,219,130
+India,Assam,Byrnihat,"Central Academy for SFS, Byrnihat - PCBA",31-12-2025 08:00:00,26.071318,91.87488,CO,44,60,52
+India,Assam,Guwahati,"Railway Colony, Guwahati - PCBA",31-12-2025 08:00:00,26.181742,91.78063,PM2.5,NA,NA,NA
+India,Assam,Guwahati,"Railway Colony, Guwahati - PCBA",31-12-2025 08:00:00,26.181742,91.78063,NO2,3,4,3
+India,Assam,Guwahati,"Pan Bazaar, Guwahati - PCBA",31-12-2025 08:00:00,26.187500,91.744194,SO2,13,18,15
+India,Assam,Guwahati,"Pan Bazaar, Guwahati - PCBA",31-12-2025 08:00:00,26.187500,91.744194,OZONE,17,17,17
+India,Andhra_Pradesh,Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB",31-12-2025 08:00:00,17.72,83.3,NO2,19,142,73
+India,Bihar,Begusarai,"Lohiyanagar, Begusarai - BSPCB",31-12-2025 08:00:00,25.42742023,86.13886079,PM2.5,97,210,145
+India,Assam,Guwahati,"LGBI Airport, Guwahati - PCBA",31-12-2025 08:00:00,26.10887,91.589544,OZONE,8,14,12
+India,Bihar,Arrah,"New DM Office, Arrah - BSPCB",31-12-2025 08:00:00,25.5626095,84.663264,OZONE,7,8,7
+India,Bihar,Bihar Sharif,"D M Colony, Bihar Sharif - BSPCB",31-12-2025 08:00:00,25.204762,85.514960,CO,1,40,1
+India,Bihar,Bihar Sharif,"D M Colony, Bihar Sharif - BSPCB",31-12-2025 08:00:00,25.204762,85.514960,OZONE,NA,NA,NA
+India,Bihar,Buxar,"Charitra Van, Buxar - BSPCB",31-12-2025 08:00:00,25.567520,83.966379,NO2,8,10,10
+India,Bihar,Katihar,"Mirchaibari, Katihar - BSPCB",31-12-2025 08:00:00,25.560083,87.553265,OZONE,6,15,6
+India,Bihar,Kishanganj,"SDM Office_Khagra, Kishanganj - BSPCB",31-12-2025 08:00:00,26.0881305,87.93840336,PM10,64,187,116
+India,Bihar,Chhapra,"Darshan Nagar, Chhapra - BSPCB",31-12-2025 08:00:00,25.7808257,84.7446768,NO2,1,2,2
+India,Bihar,Chhapra,"Darshan Nagar, Chhapra - BSPCB",31-12-2025 08:00:00,25.7808257,84.7446768,SO2,28,31,30
+India,Bihar,Bhagalpur,"DM Office_Kachari Chowk, Bhagalpur - BSPCB",31-12-2025 08:00:00,25.251013,86.989001,CO,2,92,78
+India,Bihar,Begusarai,"Lohiyanagar, Begusarai - BSPCB",31-12-2025 08:00:00,25.42742023,86.13886079,PM10,148,225,178
+India,Bihar,Begusarai,"Lohiyanagar, Begusarai - BSPCB",31-12-2025 08:00:00,25.42742023,86.13886079,CO,36,89,57
+India,Bihar,Chhapra,"Darshan Nagar, Chhapra - BSPCB",31-12-2025 08:00:00,25.7808257,84.7446768,CO,43,57,46
+India,Bihar,Bettiah,"Kamalnath Nagar, Bettiah - BSPCB",31-12-2025 08:00:00,26.80365,84.51954,SO2,7,15,11
+India,Bihar,Katihar,"Mirchaibari, Katihar - BSPCB",31-12-2025 08:00:00,25.560083,87.553265,NO2,5,10,9
+India,Bihar,Manguraha,"Forest Rest House, Manguraha - BSPCB",31-12-2025 08:00:00,27.308328,84.531742,OZONE,10,10,10
+India,Bihar,Motihari,"Gandak Colony, Motihari - BSPCB",31-12-2025 08:00:00,26.63086,84.90051,PM10,30,114,63
+India,Bihar,Motihari,"Gandak Colony, Motihari - BSPCB",31-12-2025 08:00:00,26.63086,84.90051,NO2,6,8,6
+India,Bihar,Munger,"Town Hall, Munger - BSPCB",31-12-2025 08:00:00,25.376776,86.471523,PM2.5,60,160,94
+India,Bihar,Rajgir,"Dangi Tola, Rajgir - BSPCB",31-12-2025 08:00:00,25.03280,85.41948,CO,83,100,87
+India,Bihar,Saharsa,"Police Line, Saharsa - BSPCB",31-12-2025 08:00:00,25.892357,86.590325,PM10,62,164,106
+India,Bihar,Saharsa,"Police Line, Saharsa - BSPCB",31-12-2025 08:00:00,25.892357,86.590325,NO2,6,9,7
+India,Bihar,Purnia,"Mariam Nagar, Purnia - BSPCB",31-12-2025 08:00:00,25.366336,87.117468,OZONE,21,30,22
+India,Bihar,Rajgir,"Dangi Tola, Rajgir - BSPCB",31-12-2025 08:00:00,25.03280,85.41948,NO2,8,10,9
+India,Bihar,Rajgir,"Dangi Tola, Rajgir - BSPCB",31-12-2025 08:00:00,25.03280,85.41948,NH3,6,7,7
+India,Bihar,Kishanganj,"SDM Office_Khagra, Kishanganj - BSPCB",31-12-2025 08:00:00,26.0881305,87.93840336,OZONE,16,18,17
+India,Bihar,Manguraha,"Forest Rest House, Manguraha - BSPCB",31-12-2025 08:00:00,27.308328,84.531742,PM10,57,135,97
+India,Bihar,Samastipur,"DM Office_Kasipur, Samastipur - BSPCB",31-12-2025 08:00:00,25.859655,85.77944,CO,48,82,71
+India,Bihar,Sasaram,"Dada Peer, Sasaram - BSPCB",31-12-2025 08:00:00,24.952822,84.002396,NO2,1,3,2
+India,Bihar,Muzaffarpur,"Muzaffarpur Collectorate, Muzaffarpur - BSPCB",31-12-2025 08:00:00,26.1209,85.3647,CO,15,45,34
+India,Bihar,Patna,"DRM Office Danapur, Patna - BSPCB",31-12-2025 08:00:00,25.586562,85.043586,NO2,25,52,35
+India,Bihar,Patna,"Muradpur, Patna - BSPCB",31-12-2025 08:00:00,25.619651,85.147382,PM10,89,123,109
+India,Bihar,Patna,"Muradpur, Patna - BSPCB",31-12-2025 08:00:00,25.619651,85.147382,SO2,8,10,9
+India,Chandigarh,Chandigarh,"Sector 22, Chandigarh - CPCC",31-12-2025 08:00:00,30.735567,76.775714,NO2,33,104,65
+India,Bihar,Patna,"DRM Office Danapur, Patna - BSPCB",31-12-2025 08:00:00,25.586562,85.043586,CO,52,96,84
+India,Chhattisgarh,Kunjemura,"OP Jindal School, Kunjemura - CECB",31-12-2025 08:00:00,22.126650,83.483212,PM10,26,94,54
+India,Chhattisgarh,Kunjemura,"OP Jindal School, Kunjemura - CECB",31-12-2025 08:00:00,22.126650,83.483212,NH3,2,2,2
+India,Chhattisgarh,Kunjemura,"OP Jindal School, Kunjemura - CECB",31-12-2025 08:00:00,22.126650,83.483212,CO,13,50,42
+India,Chhattisgarh,Milupara,"Govt. Higher Secondary School, Milupara - CECB",31-12-2025 08:00:00,22.1910172,83.5197009,SO2,13,17,14
+India,Chhattisgarh,Milupara,"Govt. Higher Secondary School, Milupara - CECB",31-12-2025 08:00:00,22.1910172,83.5197009,CO,7,48,32
+India,Chhattisgarh,Raipur,"AIIMS, Raipur - CECB",31-12-2025 08:00:00,21.258815,81.578979,PM2.5,12,123,58
+India,Chhattisgarh,Raipur,"AIIMS, Raipur - CECB",31-12-2025 08:00:00,21.258815,81.578979,NH3,4,5,4
+India,Chhattisgarh,Bhilai,"Civic Center, Bhilai - Bhilai Steel Plant",31-12-2025 08:00:00,21.185571,81.343175,OZONE,2,15,11
+India,Chhattisgarh,Bhilai,"Hathkhoj, Bhilai - CECB",31-12-2025 08:00:00,21.224231,81.408350,PM2.5,20,295,98
+India,Chhattisgarh,Bilaspur,"Mangala, Bilaspur - NTPC",31-12-2025 08:00:00,22.08815,82.13737,PM10,51,143,85
+India,Chhattisgarh,Bilaspur,"Mangala, Bilaspur - NTPC",31-12-2025 08:00:00,22.08815,82.13737,SO2,12,17,14
+India,Chandigarh,Chandigarh,"Sector-53, Chandigarh - CPCC",31-12-2025 08:00:00,30.719859,76.738637,NH3,13,17,14
+India,Chhattisgarh,Bhilai,"32Bungalows, Bhilai - CECB",31-12-2025 08:00:00,21.194815,81.314770,NO2,20,100,49
+India,Chhattisgarh,Bhilai,"32Bungalows, Bhilai - CECB",31-12-2025 08:00:00,21.194815,81.314770,CO,29,90,65
+India,Chhattisgarh,Raipur,"Bhatagaon New ISBT, Raipur - CECB",31-12-2025 08:00:00,21.219665,81.630094,SO2,6,12,8
+India,Chhattisgarh,Raipur,"Bhatagaon New ISBT, Raipur - CECB",31-12-2025 08:00:00,21.219665,81.630094,CO,29,94,64
+India,Chhattisgarh,Raipur,"Krishak Nagar, Raipur - CECB",31-12-2025 08:00:00,21.237755,81.705301,PM10,40,75,59
+India,Chhattisgarh,Raipur,"AIIMS, Raipur - CECB",31-12-2025 08:00:00,21.258815,81.578979,OZONE,1,12,1
+India,Chhattisgarh,Raipur,"Bhatagaon New ISBT, Raipur - CECB",31-12-2025 08:00:00,21.219665,81.630094,PM2.5,15,46,24
+India,Chhattisgarh,Raipur,"Bhatagaon New ISBT, Raipur - CECB",31-12-2025 08:00:00,21.219665,81.630094,PM10,17,106,43
+India,Chandigarh,Chandigarh,"Sector-25, Chandigarh - CPCC",31-12-2025 08:00:00,30.751462,76.762879,SO2,7,10,9
+India,Chandigarh,Chandigarh,"Sector-25, Chandigarh - CPCC",31-12-2025 08:00:00,30.751462,76.762879,CO,44,96,55
+India,Chhattisgarh,Chhal,"Nawapara SECL Colony, Chhal - CECB",31-12-2025 08:00:00,22.118125,83.140608,NO2,12,39,24
+India,Chhattisgarh,Chhal,"Nawapara SECL Colony, Chhal - CECB",31-12-2025 08:00:00,22.118125,83.140608,CO,23,50,42
+India,Chhattisgarh,Raipur,"Siltara Phase-II, Raipur - CECB",31-12-2025 08:00:00,21.371751,81.664929,OZONE,3,5,3
+India,Chandigarh,Chandigarh,"Sector-53, Chandigarh - CPCC",31-12-2025 08:00:00,30.719859,76.738637,PM2.5,107,325,220
+India,Delhi,Delhi,"Alipur, Delhi - DPCC",31-12-2025 08:00:00,28.815329,77.153010,NO2,47,83,59
+India,Delhi,Delhi,"Alipur, Delhi - DPCC",31-12-2025 08:00:00,28.815329,77.153010,OZONE,7,29,7
+India,Delhi,Delhi,"Anand Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.647622,77.3158090,NH3,9,80,29
+India,Delhi,Delhi,"DTU, Delhi - CPCB",31-12-2025 08:00:00,28.7500499,77.1112615,PM10,138,408,227
+India,Delhi,Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",31-12-2025 08:00:00,28.498571,77.264840,PM2.5,233,500,402
+India,Delhi,Delhi,"CRRI Mathura Road, Delhi - IMD",31-12-2025 08:00:00,28.5512005,77.2735737,NO2,22,164,64
+India,Delhi,Delhi,"CRRI Mathura Road, Delhi - IMD",31-12-2025 08:00:00,28.5512005,77.2735737,CO,29,150,131
+India,Delhi,Delhi,"CRRI Mathura Road, Delhi - IMD",31-12-2025 08:00:00,28.5512005,77.2735737,OZONE,9,41,12
+India,Delhi,Delhi,"IGI Airport (T3), Delhi - IMD",31-12-2025 08:00:00,28.5627763,77.1180053,PM10,131,469,324
+India,Delhi,Delhi,"IGI Airport (T3), Delhi - IMD",31-12-2025 08:00:00,28.5627763,77.1180053,NO2,58,125,95
+India,Chhattisgarh,Tumidih,"OP Jindal Industrial Park, Tumidih - CECB",31-12-2025 08:00:00,22.06631475,83.33820077,NH3,1,4,2
+India,Delhi,Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",31-12-2025 08:00:00,28.498571,77.264840,OZONE,3,143,4
+India,Delhi,Delhi,"IIT Delhi, Delhi - IITM",31-12-2025 08:00:00,28.542460,77.191651,PM2.5,92,420,327
+India,Delhi,Delhi,"Bawana, Delhi - DPCC",31-12-2025 08:00:00,28.776200,77.051074,OZONE,5,53,6
+India,Delhi,Delhi,"Bawana, Delhi - DPCC",31-12-2025 08:00:00,28.776200,77.051074,SO2,6,11,8
+India,Delhi,Delhi,"Okhla Phase-2, Delhi - DPCC",31-12-2025 08:00:00,28.530785,77.271255,PM2.5,203,500,393
+India,Delhi,Delhi,"Okhla Phase-2, Delhi - DPCC",31-12-2025 08:00:00,28.530785,77.271255,NO2,117,231,170
+India,Delhi,Delhi,"Okhla Phase-2, Delhi - DPCC",31-12-2025 08:00:00,28.530785,77.271255,NH3,17,27,22
+India,Delhi,Delhi,"Okhla Phase-2, Delhi - DPCC",31-12-2025 08:00:00,28.530785,77.271255,SO2,8,104,20
+India,Delhi,Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",31-12-2025 08:00:00,28.611281,77.237738,PM10,134,419,307
+India,Delhi,Delhi,"Mandir Marg, Delhi - DPCC",31-12-2025 08:00:00,28.636429,77.201067,PM10,131,448,322
+India,Delhi,Delhi,"IIT Delhi, Delhi - IITM",31-12-2025 08:00:00,28.542460,77.191651,CO,44,129,118
+India,Delhi,Delhi,"ITO, Delhi - CPCB",31-12-2025 08:00:00,28.628624,77.241060,NH3,4,7,5
+India,Delhi,Delhi,"Lodhi Road, Delhi - IMD",31-12-2025 08:00:00,28.5918245,77.2273074,NO2,2,84,36
+India,Delhi,Delhi,"Lodhi Road, Delhi - IMD",31-12-2025 08:00:00,28.5918245,77.2273074,CO,29,104,100
+India,Delhi,Delhi,"Narela, Delhi - DPCC",31-12-2025 08:00:00,28.822836,77.101981,NO2,24,55,35
+India,Delhi,Delhi,"Narela, Delhi - DPCC",31-12-2025 08:00:00,28.822836,77.101981,NH3,8,14,10
+India,Delhi,Delhi,"Punjabi Bagh, Delhi - DPCC",31-12-2025 08:00:00,28.674045,77.131023,OZONE,3,29,5
+India,Delhi,Delhi,"Punjabi Bagh, Delhi - DPCC",31-12-2025 08:00:00,28.674045,77.131023,NH3,6,8,7
+India,Delhi,Delhi,"Patparganj, Delhi - DPCC",31-12-2025 08:00:00,28.623763,77.287209,NH3,13,19,17
+India,Delhi,Delhi,"Nehru Nagar, Delhi - DPCC",31-12-2025 08:00:00,28.567890,77.250515,NH3,5,9,8
+India,Delhi,Delhi,"Wazirpur, Delhi - DPCC",31-12-2025 08:00:00,28.699793,77.165453,PM10,210,500,388
+India,Delhi,Delhi,"Wazirpur, Delhi - DPCC",31-12-2025 08:00:00,28.699793,77.165453,NH3,9,12,11
+India,Gujarat,Ahmedabad,"Chandkheda, Ahmedabad - IITM",31-12-2025 08:00:00,23.107969,72.574648,PM2.5,97,307,187
+India,Gujarat,Ahmedabad,"Chandkheda, Ahmedabad - IITM",31-12-2025 08:00:00,23.107969,72.574648,PM10,130,395,184
+India,Delhi,Delhi,"Sri Aurobindo Marg, Delhi - DPCC",31-12-2025 08:00:00,28.531346,77.190156,SO2,6,15,10
+India,Delhi,Delhi,"Sri Aurobindo Marg, Delhi - DPCC",31-12-2025 08:00:00,28.531346,77.190156,CO,44,135,124
+India,Delhi,Delhi,"Shadipur, Delhi - CPCB",31-12-2025 08:00:00,28.6514781,77.1473105,PM10,222,475,356
+India,Delhi,Delhi,"Sirifort, Delhi - CPCB",31-12-2025 08:00:00,28.5504249,77.2159377,PM10,144,449,361
+India,Delhi,Delhi,"R K Puram, Delhi - DPCC",31-12-2025 08:00:00,28.563262,77.186937,PM10,118,500,341
+India,Delhi,Delhi,"R K Puram, Delhi - DPCC",31-12-2025 08:00:00,28.563262,77.186937,NO2,22,101,56
+India,Delhi,Delhi,"Rohini, Delhi - DPCC",31-12-2025 08:00:00,28.732528,77.119920,PM10,201,462,348
+India,Delhi,Delhi,"Rohini, Delhi - DPCC",31-12-2025 08:00:00,28.732528,77.119920,NH3,13,20,16
+India,Gujarat,Ahmedabad,"Gyaspur, Ahmedabad - IITM",31-12-2025 08:00:00,22.977134,72.553024,CO,78,156,132
+India,Delhi,Delhi,"Rohini, Delhi - DPCC",31-12-2025 08:00:00,28.732528,77.119920,OZONE,4,108,6
+India,Delhi,Delhi,"Pusa, Delhi - DPCC",31-12-2025 08:00:00,28.639652,77.146275,OZONE,1,11,1
+India,Delhi,Delhi,"Pusa, Delhi - IMD",31-12-2025 08:00:00,28.636110,77.173332,OZONE,NA,NA,NA
+India,Gujarat,Gandhinagar,"IIPHG Lekawada, Gandhinagar - IITM",31-12-2025 08:00:00,23.243639,72.68994,PM2.5,92,233,171
+India,Gujarat,Gandhinagar,"IIPHG Lekawada, Gandhinagar - IITM",31-12-2025 08:00:00,23.243639,72.68994,NH3,2,3,2
+India,Gujarat,Ahmedabad,"Raikhad, Ahmedabad - IITM",31-12-2025 08:00:00,23.020509,72.579261,NH3,11,37,19
+India,Gujarat,Ahmedabad,"Rakhial, Ahmedabad - IITM",31-12-2025 08:00:00,23.016834,72.625775,NO2,17,128,60
+India,Gujarat,Gandhinagar,"GIFT City, Gandhinagar - IITM",31-12-2025 08:00:00,23.163798,72.677768,PM2.5,63,121,84
+India,Gujarat,Gandhinagar,"GIFT City, Gandhinagar - IITM",31-12-2025 08:00:00,23.163798,72.677768,PM10,138,302,178
+India,Gujarat,Ahmedabad,"SAC ISRO Satellite, Ahmedabad - IITM",31-12-2025 08:00:00,23.023389,72.515201,NH3,8,32,17
+India,Gujarat,Gandhinagar,"GIFT City, Gandhinagar - IITM",31-12-2025 08:00:00,23.163798,72.677768,NH3,3,19,10
+India,Gujarat,Surat,"Science Center, Surat - SMC",31-12-2025 08:00:00,21.170046,72.795405,SO2,29,37,32
+India,Gujarat,Surat,"Science Center, Surat - SMC",31-12-2025 08:00:00,21.170046,72.795405,CO,39,50,47
+India,Gujarat,Ahmedabad,"Raikhad, Ahmedabad - IITM",31-12-2025 08:00:00,23.020509,72.579261,PM2.5,NA,NA,NA
+India,Gujarat,Ahmedabad,"Maninagar, Ahmedabad - GPCB",31-12-2025 08:00:00,23.002657,72.591912,NO2,64,64,64
+India,Haryana,Faridabad,"Sector 11, Faridabad - HSPCB",31-12-2025 08:00:00,28.376058,77.315741,PM2.5,76,421,276
+India,Haryana,Faridabad,"Sector 11, Faridabad - HSPCB",31-12-2025 08:00:00,28.376058,77.315741,NO2,30,33,31
+India,Haryana,Faridabad,"Sector 11, Faridabad - HSPCB",31-12-2025 08:00:00,28.376058,77.315741,SO2,4,49,7
+India,Haryana,Faridabad,"Sector 30, Faridabad - HSPCB",31-12-2025 08:00:00,28.4417,77.3217,NO2,36,39,37
+India,Haryana,Faridabad,"Sector 30, Faridabad - HSPCB",31-12-2025 08:00:00,28.4417,77.3217,NH3,11,12,11
+India,Haryana,Faridabad,"Sector 30, Faridabad - HSPCB",31-12-2025 08:00:00,28.4417,77.3217,SO2,6,6,6
+India,Haryana,Faridabad,"Sector 30, Faridabad - HSPCB",31-12-2025 08:00:00,28.4417,77.3217,CO,40,65,62
+India,Haryana,Bahadurgarh,"Arya Nagar, Bahadurgarh - HSPCB",31-12-2025 08:00:00,28.6701,76.9254,PM2.5,4,308,138
+India,Haryana,Bahadurgarh,"Arya Nagar, Bahadurgarh - HSPCB",31-12-2025 08:00:00,28.6701,76.9254,NH3,12,13,13
+India,Haryana,Bhiwani,"H.B. Colony, Bhiwani - HSPCB",31-12-2025 08:00:00,28.806223,76.141105,OZONE,8,22,14
+India,Haryana,Charkhi Dadri,"Mini Secretariat, Charkhi Dadri - HSPCB",31-12-2025 08:00:00,28.593883,76.270653,PM2.5,94,338,253
+India,Gujarat,Vapi,"Phase-1 GIDC, Vapi - GPCB",31-12-2025 08:00:00,20.362421,72.918013,OZONE,7,15,7
+India,Gujarat,Vatva,"Phase-4 GIDC, Vatva - GPCB",31-12-2025 08:00:00,22.969611,72.643500,PM2.5,88,324,205
+India,Gujarat,Vatva,"Phase-4 GIDC, Vatva - GPCB",31-12-2025 08:00:00,22.969611,72.643500,NO2,39,77,58
+India,Gujarat,Vatva,"Phase-4 GIDC, Vatva - GPCB",31-12-2025 08:00:00,22.969611,72.643500,SO2,48,77,60
+India,Haryana,Hisar,"Urban Estate-II, Hisar - HSPCB",31-12-2025 08:00:00,29.140560,75.744941,PM2.5,50,101,73
+India,Haryana,Hisar,"Urban Estate-II, Hisar - HSPCB",31-12-2025 08:00:00,29.140560,75.744941,PM10,43,104,72
+India,Haryana,Hisar,"Urban Estate-II, Hisar - HSPCB",31-12-2025 08:00:00,29.140560,75.744941,NO2,26,27,27
+India,Haryana,Faridabad,"New Industrial Town, Faridabad - HSPCB",31-12-2025 08:00:00,28.39072,77.30059,NH3,11,12,11
+India,Haryana,Faridabad,"New Industrial Town, Faridabad - HSPCB",31-12-2025 08:00:00,28.39072,77.30059,CO,10,14,11
+India,Haryana,Faridabad,"New Industrial Town, Faridabad - HSPCB",31-12-2025 08:00:00,28.39072,77.30059,OZONE,26,36,30
+India,Haryana,Fatehabad,"Huda Sector, Fatehabad - HSPCB",31-12-2025 08:00:00,29.503664,75.467934,SO2,10,11,10
+India,Haryana,Gurugram,"Sector-51, Gurugram - HSPCB",31-12-2025 08:00:00,28.4227,77.0667,PM10,153,500,302
+India,Haryana,Gurugram,"Teri Gram, Gurugram - HSPCB",31-12-2025 08:00:00,28.4275,77.1465,PM10,138,413,223
+India,Gujarat,Vapi,"Phase-1 GIDC, Vapi - GPCB",31-12-2025 08:00:00,20.362421,72.918013,PM10,62,196,92
+India,Haryana,Panchgaon,"Amity University, Panchgaon - IITM",31-12-2025 08:00:00,28.3153,76.9143,NO2,13,51,28
+India,Haryana,Panchgaon,"Amity University, Panchgaon - IITM",31-12-2025 08:00:00,28.3153,76.9143,OZONE,1,48,2
+India,Haryana,Panchkula,"Sector-6, Panchkula - HSPCB ",31-12-2025 08:00:00,30.7057778,76.8531805555555,OZONE,17,51,47
+India,Haryana,Panipat,"Sector-18, Panipat - HSPCB",31-12-2025 08:00:00,29.432304,76.972765,PM2.5,77,380,273
+India,Haryana,Karnal,"Sector-12, Karnal - HSPCB",31-12-2025 08:00:00,29.695300,77.002700,OZONE,36,36,36
+India,Haryana,Kurukshetra,"Sector-7, Kurukshetra - HSPCB",31-12-2025 08:00:00,29.966942,76.875879,OZONE,1,31,1
+India,Haryana,Palwal,"Shyam Nagar, Palwal - HSPCB",31-12-2025 08:00:00,28.1485564,77.3320667,NH3,8,9,9
+India,Haryana,Palwal,"Shyam Nagar, Palwal - HSPCB",31-12-2025 08:00:00,28.1485564,77.3320667,OZONE,13,16,14
+India,Haryana,Yamuna Nagar,"Gobind Pura, Yamuna Nagar - HSPCB",31-12-2025 08:00:00,30.1480566,77.2893471,NH3,4,4,4
+India,Haryana,Yamuna Nagar,"Gobind Pura, Yamuna Nagar - HSPCB",31-12-2025 08:00:00,30.1480566,77.2893471,CO,8,46,32
+India,Haryana,Sirsa,"F-Block, Sirsa - HSPCB",31-12-2025 08:00:00,29.536400,75.015800,PM2.5,107,262,148
+India,Haryana,Sirsa,"F-Block, Sirsa - HSPCB",31-12-2025 08:00:00,29.536400,75.015800,PM10,148,148,148
+India,Haryana,Yamuna Nagar,"Gobind Pura, Yamuna Nagar - HSPCB",31-12-2025 08:00:00,30.1480566,77.2893471,PM2.5,169,236,208
+India,Haryana,Narnaul,"Shastri Nagar, Narnaul - HSPCB",31-12-2025 08:00:00,28.060249,76.113115,NO2,85,125,102
+India,Haryana,Karnal,"Sector-12, Karnal - HSPCB",31-12-2025 08:00:00,29.695300,77.002700,PM2.5,41,328,269
+India,Haryana,Sirsa,"F-Block, Sirsa - HSPCB",31-12-2025 08:00:00,29.536400,75.015800,SO2,6,28,14
+India,Karnataka,Bengaluru,"Hebbal, Bengaluru - KSPCB",31-12-2025 08:00:00,13.029152,77.585901,CO,2,68,28
+India,Karnataka,Bengaluru,"Hombegowda Nagar, Bengaluru - KSPCB",31-12-2025 08:00:00,12.938539,77.590100,CO,18,73,24
+India,Karnataka,Bengaluru,"Jayanagar 5th Block, Bengaluru - KSPCB",31-12-2025 08:00:00,12.920984,77.584908,NH3,1,2,1
+India,Karnataka,Bengaluru,"Jayanagar 5th Block, Bengaluru - KSPCB",31-12-2025 08:00:00,12.920984,77.584908,CO,13,102,17
+India,Karnataka,Bengaluru,"Jigani, Bengaluru - KSPCB",31-12-2025 08:00:00,12.7816279,77.6299145,PM2.5,35,90,65
+India,Jammu_and_Kashmir,Pampore,"Khrew, Pampore - JKPCC",31-12-2025 08:00:00,34.031606,75.009712,SO2,2,3,2
+India,Jammu_and_Kashmir,Srinagar,"Khunmoh, Srinagar - JKPCC",31-12-2025 08:00:00,34.06313,74.96017,NO2,2,21,5
+India,Karnataka,Bagalkot,"Vidayagiri, Bagalkot - KSPCB",31-12-2025 08:00:00,16.172806,75.659694,PM10,53,54,54
+India,Karnataka,Bagalkot,"Vidayagiri, Bagalkot - KSPCB",31-12-2025 08:00:00,16.172806,75.659694,NH3,1,2,1
+India,Himachal Pradesh,Baddi,"HIMUDA Complex Phase-1, Baddi - HPPCB",31-12-2025 08:00:00,30.943887,76.801991,OZONE,6,90,21
+India,Karnataka,Bengaluru,"BTM Layout, Bengaluru - CPCB",31-12-2025 08:00:00,12.9135218,77.5950804,PM10,109,110,109
+India,Jharkhand,Dhanbad,"Sardar Patel Nagar, Dhanbad - JSPCB",31-12-2025 08:00:00,23.80569,86.44268,NO2,50,51,51
+India,Karnataka,Bengaluru,"BTM Layout, Bengaluru - CPCB",31-12-2025 08:00:00,12.9135218,77.5950804,OZONE,18,19,18
+India,Jammu_and_Kashmir,Pampore,"Khrew, Pampore - JKPCC",31-12-2025 08:00:00,34.031606,75.009712,PM10,56,87,74
+India,Karnataka,Bengaluru,"Hebbal, Bengaluru - KSPCB",31-12-2025 08:00:00,13.029152,77.585901,PM2.5,84,230,146
+India,Karnataka,Shivamogga,"Vinoba Nagara, Shivamogga - KSPCB",31-12-2025 08:00:00,13.940000,75.555917,NH3,3,4,3
+India,Karnataka,Tumakuru,"Thimmalapura, Tumakuru - KSPCB",31-12-2025 08:00:00,13.377516,77.099072,NO2,31,32,32
+India,Karnataka,Tumakuru,"Thimmalapura, Tumakuru - KSPCB",31-12-2025 08:00:00,13.377516,77.099072,SO2,26,27,26
+India,Karnataka,Yadgir,"Collector Office, Yadgir - KSPCB",31-12-2025 08:00:00,16.7602,77.1428,PM2.5,68,194,115
+India,Karnataka,Chikkamagaluru,"Kalyana Nagara, Chikkamagaluru - KSPCB",31-12-2025 08:00:00,13.328028,75.797056,NO2,13,31,21
+India,Karnataka,Chikkamagaluru,"Kalyana Nagara, Chikkamagaluru - KSPCB",31-12-2025 08:00:00,13.328028,75.797056,SO2,1,5,2
+India,Karnataka,Chikkamagaluru,"Kalyana Nagara, Chikkamagaluru - KSPCB",31-12-2025 08:00:00,13.328028,75.797056,CO,11,12,11
+India,Karnataka,Chikkamagaluru,"Kalyana Nagara, Chikkamagaluru - KSPCB",31-12-2025 08:00:00,13.328028,75.797056,OZONE,10,50,10
+India,Karnataka,Dharwad,"Kalabhavan, Dharwad - KSPCB",31-12-2025 08:00:00,15.459706,75.008381,PM10,105,144,120
+India,Karnataka,Bengaluru,"Shivapura_Peenya, Bengaluru - KSPCB",31-12-2025 08:00:00,13.0246342,77.5080115,NO2,21,32,22
+India,Karnataka,Bengaluru,"Shivapura_Peenya, Bengaluru - KSPCB",31-12-2025 08:00:00,13.0246342,77.5080115,OZONE,20,22,21
+India,Karnataka,Bengaluru,"Silk Board, Bengaluru - KSPCB",31-12-2025 08:00:00,12.917348,77.622813,PM2.5,70,146,98
+India,Karnataka,Bengaluru,"Peenya, Bengaluru - CPCB",31-12-2025 08:00:00,13.0270199,77.494094,PM2.5,18,104,46
+India,Karnataka,Bengaluru,"Peenya, Bengaluru - CPCB",31-12-2025 08:00:00,13.0270199,77.494094,CO,9,65,20
+India,Karnataka,Shivamogga,"Vinoba Nagara, Shivamogga - KSPCB",31-12-2025 08:00:00,13.940000,75.555917,PM2.5,21,53,34
+India,Karnataka,Hubballi,"Lingaraj Nagar, Hubballi - KSPCB",31-12-2025 08:00:00,15.3714823,75.1160168,SO2,1,4,2
+India,Karnataka,Bengaluru,"RVCE-Mailasandra, Bengaluru - KSPCB",31-12-2025 08:00:00,12.921418,77.502466,SO2,5,6,6
+India,Karnataka,Chamarajanagar,"Urban, Chamarajanagar - KSPCB",31-12-2025 08:00:00,11.55358,76.55521,SO2,2,8,4
+India,Karnataka,Madikeri,"Stuart Hill, Madikeri - KSPCB",31-12-2025 08:00:00,12.415911,75.735050,SO2,7,7,7
+India,Madhya Pradesh,Jabalpur,"Govindh Bhavan Colony, Jabalpur - JMC",31-12-2025 08:00:00,23.163174,79.973061,SO2,9,13,11
+India,Madhya Pradesh,Jabalpur,"Gupteshwar, Jabalpur - JMC",31-12-2025 08:00:00,23.142888,79.916147,PM2.5,15,102,40
+India,Madhya Pradesh,Jabalpur,"Marhatal, Jabalpur - MPPCB",31-12-2025 08:00:00,23.168606,79.932247,NH3,1,2,1
+India,Madhya Pradesh,Jabalpur,"Suhagi, Jabalpur - JMC",31-12-2025 08:00:00,23.218135,79.957770,PM2.5,15,97,46
+India,Kerala,Kannur,"Thavakkara, Kannur - Kerala PCB",31-12-2025 08:00:00,11.875000,75.373200,CO,16,20,18
+India,Kerala,Kannur,"Thavakkara, Kannur - Kerala PCB",31-12-2025 08:00:00,11.875000,75.373200,OZONE,28,32,28
+India,Kerala,Thiruvananthapuram,"Kariavattom, Thiruvananthapuram - Kerala PCB",31-12-2025 08:00:00,8.563700,76.886500,SO2,1,21,6
+India,Madhya Pradesh,Damoh,"Shrivastav Colony, Damoh - MPPCB",31-12-2025 08:00:00,23.81748678,79.446246,CO,12,97,54
+India,Madhya Pradesh,Dewas,"Bhopal Chauraha, Dewas - MPPCB",31-12-2025 08:00:00,22.9682591,76.064118,NO2,NA,NA,NA
+India,Madhya Pradesh,Dewas,"Bhopal Chauraha, Dewas - MPPCB",31-12-2025 08:00:00,22.9682591,76.064118,SO2,34,45,41
+India,Kerala,Eloor,"Udyogamandal, Eloor - Kerala PCB",31-12-2025 08:00:00,10.073232,76.302765,OZONE,10,17,13
+India,Kerala,Kannur,"Thavakkara, Kannur - Kerala PCB",31-12-2025 08:00:00,11.875000,75.373200,PM10,72,76,73
+India,Kerala,Kannur,"Thavakkara, Kannur - Kerala PCB",31-12-2025 08:00:00,11.875000,75.373200,NO2,16,18,17
+India,Madhya Pradesh,Indore,"Chhoti Gwaltoli, Indore - MPPCB",31-12-2025 08:00:00,22.4310,75.5213,NO2,53,163,121
+India,Madhya Pradesh,Indore,"Chhoti Gwaltoli, Indore - MPPCB",31-12-2025 08:00:00,22.4310,75.5213,NH3,1,10,3
+India,Madhya Pradesh,Indore,"Chhoti Gwaltoli, Indore - MPPCB",31-12-2025 08:00:00,22.4310,75.5213,SO2,24,50,35
+India,Madhya Pradesh,Jabalpur,"Govindh Bhavan Colony, Jabalpur - JMC",31-12-2025 08:00:00,23.163174,79.973061,PM2.5,20,50,32
+India,Madhya Pradesh,Gwalior,"Deen Dayal Nagar, Gwalior - MPPCB",31-12-2025 08:00:00,26.259242,78.216432,CO,4,147,52
+India,Kerala,Eloor,"Udyogamandal, Eloor - Kerala PCB",31-12-2025 08:00:00,10.073232,76.302765,PM2.5,98,230,144
+India,Madhya Pradesh,Indore,"Airport Area, Indore - IMC",31-12-2025 08:00:00,22.7289,75.8076,NO2,1,3,3
+India,Maharashtra,Amravati,"Shivneri Colony, Amravati - MPCB",31-12-2025 08:00:00,20.9402359,77.7895248,SO2,21,30,25
+India,Maharashtra,Amravati,"Shri Shivaji Science College, Amravati - MPCB",31-12-2025 08:00:00,20.939198,77.765701,PM2.5,11,99,42
+India,Maharashtra,Aurangabad,"MIDC Chilkalthana, Aurangabad - MPCB",31-12-2025 08:00:00,19.875620,75.387310,PM2.5,NA,NA,NA
+India,Maharashtra,Aurangabad,"MIDC Chilkalthana, Aurangabad - MPCB",31-12-2025 08:00:00,19.875620,75.387310,PM10,NA,NA,NA
+India,Maharashtra,Aurangabad,"More Chowk Waluj, Aurangabad - MPCB",31-12-2025 08:00:00,19.8389439,75.244448,NH3,10,12,11
+India,Maharashtra,Badlapur,"Katrap, Badlapur - MPCB",31-12-2025 08:00:00,19.16485,73.23409,NO2,13,35,24
+India,Madhya Pradesh,Jabalpur,"Suhagi, Jabalpur - JMC",31-12-2025 08:00:00,23.218135,79.957770,CO,22,105,39
+India,Madhya Pradesh,Katni,"Gole Bazar, Katni - MPPCB",31-12-2025 08:00:00,23.50016,80.23284,CO,17,146,95
+India,Madhya Pradesh,Sagar,"Civil Lines, Sagar - MPPCB",31-12-2025 08:00:00,23.838586,78.759431,PM2.5,39,328,118
+India,Madhya Pradesh,Sagar,"Civil Lines, Sagar - MPPCB",31-12-2025 08:00:00,23.838586,78.759431,SO2,4,13,8
+India,Maharashtra,Ahmednagar,"Tarakpur, Ahmednagar - MPCB",31-12-2025 08:00:00,19.10122,74.73339,SO2,2,12,6
+India,Maharashtra,Ahmednagar,"Tarakpur, Ahmednagar - MPCB",31-12-2025 08:00:00,19.10122,74.73339,OZONE,1,119,17
+India,Maharashtra,Bhiwandi,"Gokul Nagar, Bhiwandi - MPCB",31-12-2025 08:00:00,19.309073,73.057223,NO2,19,37,27
+India,Maharashtra,Bhiwandi,"Gokul Nagar, Bhiwandi - MPCB",31-12-2025 08:00:00,19.309073,73.057223,SO2,7,14,11
+India,Madhya Pradesh,Pithampur,"Sector-2 Industrial Area, Pithampur - MPPCB",31-12-2025 08:00:00,22.624758,75.675238,NH3,2,4,3
+India,Maharashtra,Akola,"Ramdaspeth, Akola - MPCB",31-12-2025 08:00:00,20.719516,77.000253,PM2.5,32,175,83
+India,Maharashtra,Boisar,"Khaira, Boisar - MPCB",31-12-2025 08:00:00,19.786089,72.757971,PM10,85,156,118
+India,Maharashtra,Kalyan,"Khadakpada, Kalyan - MPCB",31-12-2025 08:00:00,19.25292,73.142019,OZONE,9,14,9
+India,Maharashtra,Kalyan,"Pimpleshwar Mandir, Kalyan - MPCB",31-12-2025 08:00:00,19.192056,72.9585188,PM2.5,57,231,124
+India,Maharashtra,Kalyan,"Pimpleshwar Mandir, Kalyan - MPCB",31-12-2025 08:00:00,19.192056,72.9585188,NO2,15,33,22
+India,Maharashtra,Kolhapur,"Shivaji University, Kolhapur - MPCB",31-12-2025 08:00:00,16.6870449,74.2505872,NH3,3,5,4
+India,Maharashtra,Kolhapur,"Sinchan Bhavan, Kolhapur - MPCB",31-12-2025 08:00:00,16.7143745,74.2426398,NO2,13,42,24
+India,Maharashtra,Malegaon,"Mahesh Nagar, Malegaon - MPCB",31-12-2025 08:00:00,20.555712,74.529236,NH3,3,27,5
+India,Maharashtra,Mira-Bhayandar,"Bhayandar West, Mira-Bhayandar - MPCB",31-12-2025 08:00:00,19.296481,72.840923,PM2.5,95,151,125
+India,Maharashtra,Mira-Bhayandar,"Bhayandar West, Mira-Bhayandar - MPCB",31-12-2025 08:00:00,19.296481,72.840923,OZONE,1,112,4
+India,Maharashtra,Mumbai,"Bandra Kurla Complex, Mumbai - IITM",31-12-2025 08:00:00,19.053536,72.84643,SO2,3,101,18
+India,Maharashtra,Kolhapur,"Sinchan Bhavan, Kolhapur - MPCB",31-12-2025 08:00:00,16.7143745,74.2426398,CO,29,50,36
+India,Maharashtra,Latur,"Sawe Wadi, Latur - MPCB",31-12-2025 08:00:00,18.39963,76.57452,NO2,23,183,75
+India,Maharashtra,Latur,"Sawe Wadi, Latur - MPCB",31-12-2025 08:00:00,18.39963,76.57452,NH3,7,61,24
+India,Maharashtra,Jalgaon,"Prabhat Colony, Jalgaon - MPCB",31-12-2025 08:00:00,21.001264,75.565602,NO2,5,38,16
+India,Maharashtra,Jalna,"Old MIDC, Jalna - MPCB",31-12-2025 08:00:00,19.854616,75.905894,NH3,3,5,4
+India,Maharashtra,Jalna,"Old MIDC, Jalna - MPCB",31-12-2025 08:00:00,19.854616,75.905894,CO,26,69,33
+India,Maharashtra,Mumbai,"Bandra Kurla Complex, Mumbai - MPCB",31-12-2025 08:00:00,19.065931,72.862131,SO2,6,48,14
+India,Maharashtra,Mumbai,"Borivali East, Mumbai - IITM",31-12-2025 08:00:00,19.23241,72.86895,PM2.5,80,138,98
+India,Maharashtra,Chandrapur,"Chauhan Colony, Chandrapur - MPCB",31-12-2025 08:00:00,19.962900,79.298714,NH3,2,2,2
+India,Maharashtra,Chandrapur,"Chauhan Colony, Chandrapur - MPCB",31-12-2025 08:00:00,19.962900,79.298714,CO,24,84,72
+India,Maharashtra,Chandrapur,"Chauhan Colony, Chandrapur - MPCB",31-12-2025 08:00:00,19.962900,79.298714,OZONE,24,24,24
+India,Maharashtra,Boisar,"Khaira, Boisar - MPCB",31-12-2025 08:00:00,19.786089,72.757971,NO2,NA,NA,NA
+India,Maharashtra,Boisar,"Khaira, Boisar - MPCB",31-12-2025 08:00:00,19.786089,72.757971,NH3,4,11,7
+India,Maharashtra,Chandrapur,"MIDC Khutala, Chandrapur - MPCB",31-12-2025 08:00:00,19.9775302,79.2337086,OZONE,17,19,18
+India,Maharashtra,Mumbai,"Borivali East, Mumbai - IITM",31-12-2025 08:00:00,19.23241,72.86895,OZONE,11,51,29
+India,Maharashtra,Mumbai,"Borivali East, Mumbai - MPCB",31-12-2025 08:00:00,19.2243333,72.8658113,PM2.5,40,69,57
+India,Maharashtra,Mumbai,"Borivali East, Mumbai - MPCB",31-12-2025 08:00:00,19.2243333,72.8658113,PM10,82,127,110
+India,Maharashtra,Mumbai,"Byculla, Mumbai - BMC",31-12-2025 08:00:00,18.9767,72.8380,NO2,56,142,101
+India,Andhra_Pradesh,Kadapa,"Yerramukkapalli, Kadapa - APPCB",31-12-2025 08:00:00,14.465052,78.824187,NO2,20,25,24
+India,Andhra_Pradesh,Kadapa,"Yerramukkapalli, Kadapa - APPCB",31-12-2025 08:00:00,14.465052,78.824187,NH3,3,4,3
+India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",31-12-2025 08:00:00,16.9872867,81.7363176,PM10,134,187,164
+India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",31-12-2025 08:00:00,16.9872867,81.7363176,CO,38,70,47
+India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",31-12-2025 08:00:00,13.67,79.35,PM10,117,190,149
+India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",31-12-2025 08:00:00,13.67,79.35,NO2,17,49,29
+India,Andhra_Pradesh,Amaravati,"Secretariat, Amaravati - APPCB",31-12-2025 08:00:00,16.5150833,80.5181667,SO2,9,87,22
+India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",31-12-2025 08:00:00,13.204880,79.097889,PM2.5,38,275,121
+India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",31-12-2025 08:00:00,13.204880,79.097889,SO2,6,33,15
+India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB",31-12-2025 08:00:00,16.536107,80.594233,NH3,3,5,4
+India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB",31-12-2025 08:00:00,16.536107,80.594233,OZONE,8,34,20
+India,Andhra_Pradesh,Vijayawada,"Kanuru, Vijayawada - APPCB",31-12-2025 08:00:00,16.486692,80.699436,PM2.5,35,103,58
+India,Andhra_Pradesh,Vijayawada,"Kanuru, Vijayawada - APPCB",31-12-2025 08:00:00,16.486692,80.699436,SO2,16,29,23
+India,Andhra_Pradesh,Vijayawada,"Kanuru, Vijayawada - APPCB",31-12-2025 08:00:00,16.486692,80.699436,CO,52,78,53
+India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",31-12-2025 08:00:00,16.509717,80.612222,NO2,14,75,50
+India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",31-12-2025 08:00:00,16.509717,80.612222,SO2,14,22,18
+India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB",31-12-2025 08:00:00,13.615387,79.409230,PM2.5,11,359,132
+India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB",31-12-2025 08:00:00,16.536107,80.594233,PM2.5,38,92,64
+India,Andhra_Pradesh,Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB",31-12-2025 08:00:00,17.72,83.3,CO,NA,NA,NA
+India,Assam,Guwahati,"Railway Colony, Guwahati - PCBA",31-12-2025 08:00:00,26.181742,91.78063,CO,46,76,62
+India,Assam,Nagaon,"Christianpatty, Nagaon - PCBA",31-12-2025 08:00:00,26.349082,92.68449,NO2,1,1,1
+India,Assam,Nagaon,"Christianpatty, Nagaon - PCBA",31-12-2025 08:00:00,26.349082,92.68449,SO2,6,14,13
+India,Assam,Nalbari,"Bata Chowk, Nalbari - PCBA",31-12-2025 08:00:00,26.446912,91.439057,NO2,6,16,14
+India,Assam,Nalbari,"Bata Chowk, Nalbari - PCBA",31-12-2025 08:00:00,26.446912,91.439057,CO,8,23,21
+India,Assam,Silchar,"Tarapur, Silchar - PCBA",31-12-2025 08:00:00,24.82827,92.79525,NO2,19,29,23
+India,Bihar,Bettiah,"Kamalnath Nagar, Bettiah - BSPCB",31-12-2025 08:00:00,26.80365,84.51954,OZONE,22,24,23
+India,Bihar,Bhagalpur,"DM Office_Kachari Chowk, Bhagalpur - BSPCB",31-12-2025 08:00:00,25.251013,86.989001,PM10,54,145,109
+India,Bihar,Bhagalpur,"DM Office_Kachari Chowk, Bhagalpur - BSPCB",31-12-2025 08:00:00,25.251013,86.989001,NH3,1,1,1
+India,Bihar,Bhagalpur,"DM Office_Kachari Chowk, Bhagalpur - BSPCB",31-12-2025 08:00:00,25.251013,86.989001,SO2,30,101,72
+India,Assam,Silchar,"Tarapur, Silchar - PCBA",31-12-2025 08:00:00,24.82827,92.79525,CO,24,54,35
+India,Assam,Sivasagar,"Girls College, Sivasagar - PCBA",31-12-2025 08:00:00,26.987634,94.636574,OZONE,4,53,5
+India,Bihar,Araria,"Kharahiya Basti, Araria - BSPCB",31-12-2025 08:00:00,26.146529,87.454184,CO,24,64,48
+India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",31-12-2025 08:00:00,27.103358,93.679645,NO2,6,7,6
+India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",31-12-2025 08:00:00,27.103358,93.679645,CO,14,65,26
+India,Bihar,Arrah,"New DM Office, Arrah - BSPCB",31-12-2025 08:00:00,25.5626095,84.663264,PM10,79,165,105
+India,Bihar,Arrah,"New DM Office, Arrah - BSPCB",31-12-2025 08:00:00,25.5626095,84.663264,SO2,9,10,10
+India,Bihar,Begusarai,"Lohiyanagar, Begusarai - BSPCB",31-12-2025 08:00:00,25.42742023,86.13886079,NO2,9,17,13
+India,Assam,Guwahati,"LGBI Airport, Guwahati - PCBA",31-12-2025 08:00:00,26.10887,91.589544,PM10,36,131,73
+India,Bihar,Aurangabad,"Gurdeo Nagar, Aurangabad - BSPCB",31-12-2025 08:00:00,24.75746,84.366208,NO2,7,8,8
+India,Bihar,Bettiah,"Kamalnath Nagar, Bettiah - BSPCB",31-12-2025 08:00:00,26.80365,84.51954,NO2,7,10,8
+India,Bihar,Munger,"Town Hall, Munger - BSPCB",31-12-2025 08:00:00,25.376776,86.471523,NO2,4,5,5
+India,Bihar,Munger,"Town Hall, Munger - BSPCB",31-12-2025 08:00:00,25.376776,86.471523,NH3,4,7,6
+India,Bihar,Munger,"Town Hall, Munger - BSPCB",31-12-2025 08:00:00,25.376776,86.471523,SO2,34,57,41
+India,Bihar,Munger,"Town Hall, Munger - BSPCB",31-12-2025 08:00:00,25.376776,86.471523,OZONE,12,22,13
+India,Bihar,Muzaffarpur,"Buddha Colony, Muzaffarpur - BSPCB",31-12-2025 08:00:00,26.11442,85.39813,NO2,16,35,23
+India,Bihar,Bhagalpur,"Mayaganj, Bhagalpur - BSPCB",31-12-2025 08:00:00,25.265194,87.012947,OZONE,8,36,10
+India,Bihar,Bihar Sharif,"D M Colony, Bihar Sharif - BSPCB",31-12-2025 08:00:00,25.204762,85.514960,PM2.5,85,341,163
+India,Bihar,Bihar Sharif,"D M Colony, Bihar Sharif - BSPCB",31-12-2025 08:00:00,25.204762,85.514960,NO2,9,10,9
+India,Bihar,Gaya,"SFTI Kusdihra, Gaya - BSPCB",31-12-2025 08:00:00,24.762518,84.982348,CO,NA,NA,NA
+India,Bihar,Hajipur,"Industrial Area, Hajipur - BSPCB",31-12-2025 08:00:00,25.697189,85.245900,NO2,17,34,25
+India,Bihar,Hajipur,"Industrial Area, Hajipur - BSPCB",31-12-2025 08:00:00,25.697189,85.245900,SO2,6,10,8
+India,Bihar,Muzaffarpur,"MIT-Daudpur Kothi, Muzaffarpur - BSPCB",31-12-2025 08:00:00,26.1403345,85.3650192,PM10,63,74,70
+India,Bihar,Muzaffarpur,"MIT-Daudpur Kothi, Muzaffarpur - BSPCB",31-12-2025 08:00:00,26.1403345,85.3650192,SO2,10,13,12
+India,Bihar,Buxar,"Charitra Van, Buxar - BSPCB",31-12-2025 08:00:00,25.567520,83.966379,SO2,1,6,2
+India,Bihar,Buxar,"Charitra Van, Buxar - BSPCB",31-12-2025 08:00:00,25.567520,83.966379,CO,16,28,24
+India,Bihar,Bhagalpur,"Mayaganj, Bhagalpur - BSPCB",31-12-2025 08:00:00,25.265194,87.012947,PM10,101,182,133
+India,Bihar,Katihar,"Mirchaibari, Katihar - BSPCB",31-12-2025 08:00:00,25.560083,87.553265,PM10,42,99,70
+India,Bihar,Motihari,"Gandak Colony, Motihari - BSPCB",31-12-2025 08:00:00,26.63086,84.90051,OZONE,4,5,5
+India,Bihar,Bhagalpur,"Mayaganj, Bhagalpur - BSPCB",31-12-2025 08:00:00,25.265194,87.012947,NH3,11,13,12
+India,Bihar,Patna,"Govt. High School Shikarpur, Patna - BSPCB",31-12-2025 08:00:00,25.592539,85.227158,NH3,4,6,5
+India,Bihar,Patna,"Govt. High School Shikarpur, Patna - BSPCB",31-12-2025 08:00:00,25.592539,85.227158,SO2,9,13,12
+India,Bihar,Patna,"IGSC Planetarium Complex, Patna - BSPCB",31-12-2025 08:00:00,25.610369,85.132568,NO2,NA,NA,NA
+India,Bihar,Patna,"IGSC Planetarium Complex, Patna - BSPCB",31-12-2025 08:00:00,25.610369,85.132568,OZONE,NA,NA,NA
+India,Bihar,Saharsa,"Police Line, Saharsa - BSPCB",31-12-2025 08:00:00,25.892357,86.590325,NH3,4,4,4
+India,Bihar,Saharsa,"Police Line, Saharsa - BSPCB",31-12-2025 08:00:00,25.892357,86.590325,OZONE,9,11,10
+India,Bihar,Samastipur,"DM Office_Kasipur, Samastipur - BSPCB",31-12-2025 08:00:00,25.859655,85.77944,PM2.5,80,382,199
+India,Bihar,Purnia,"Mariam Nagar, Purnia - BSPCB",31-12-2025 08:00:00,25.366336,87.117468,CO,50,58,56
+India,Bihar,Rajgir,"Dangi Tola, Rajgir - BSPCB",31-12-2025 08:00:00,25.03280,85.41948,PM2.5,NA,NA,NA
+India,Bihar,Patna,"Samanpura, Patna - BSPCB",31-12-2025 08:00:00,25.596727,85.085624,NH3,5,6,5
+India,Bihar,Patna,"Samanpura, Patna - BSPCB",31-12-2025 08:00:00,25.596727,85.085624,CO,56,107,67
+India,Bihar,Patna,"Govt. High School Shikarpur, Patna - BSPCB",31-12-2025 08:00:00,25.592539,85.227158,PM10,118,161,146
+India,Bihar,Patna,"Rajbansi Nagar, Patna - BSPCB",31-12-2025 08:00:00,25.599486,85.113666,PM2.5,81,163,122
+India,Bihar,Patna,"DRM Office Danapur, Patna - BSPCB",31-12-2025 08:00:00,25.586562,85.043586,NH3,5,7,6
+India,Bihar,Patna,"Rajbansi Nagar, Patna - BSPCB",31-12-2025 08:00:00,25.599486,85.113666,OZONE,20,32,26
+India,Bihar,Purnia,"Mariam Nagar, Purnia - BSPCB",31-12-2025 08:00:00,25.366336,87.117468,NO2,5,7,6
+India,Chhattisgarh,Korba,"Urja Nagar, Korba - CECB",31-12-2025 08:00:00,22.348441,82.549611,SO2,NA,NA,NA
+India,Chhattisgarh,Korba,"Urja Nagar, Korba - CECB",31-12-2025 08:00:00,22.348441,82.549611,CO,18,105,67
+India,Chhattisgarh,Kunjemura,"OP Jindal School, Kunjemura - CECB",31-12-2025 08:00:00,22.126650,83.483212,SO2,6,92,32
+India,Chhattisgarh,Milupara,"Govt. Higher Secondary School, Milupara - CECB",31-12-2025 08:00:00,22.1910172,83.5197009,NH3,1,2,2
+India,Chhattisgarh,Milupara,"Govt. Higher Secondary School, Milupara - CECB",31-12-2025 08:00:00,22.1910172,83.5197009,OZONE,3,88,4
+India,Chhattisgarh,Chhal,"Nawapara SECL Colony, Chhal - CECB",31-12-2025 08:00:00,22.118125,83.140608,PM2.5,38,73,50
+India,Chhattisgarh,Korba,"Rampur, Korba - CECB",31-12-2025 08:00:00,22.368195,82.746431,PM10,33,122,71
+India,Chhattisgarh,Korba,"Rampur, Korba - CECB",31-12-2025 08:00:00,22.368195,82.746431,CO,18,36,25
+India,Chhattisgarh,Korba,"Rampur, Korba - CECB",31-12-2025 08:00:00,22.368195,82.746431,OZONE,1,11,2
+India,Chhattisgarh,Korba,"Urja Nagar, Korba - CECB",31-12-2025 08:00:00,22.348441,82.549611,PM2.5,NA,NA,NA
+India,Chhattisgarh,Tumidih,"OP Jindal Industrial Park, Tumidih - CECB",31-12-2025 08:00:00,22.06631475,83.33820077,SO2,5,15,7
+India,Delhi,Delhi,"Alipur, Delhi - DPCC",31-12-2025 08:00:00,28.815329,77.153010,PM2.5,213,431,327
+India,Chhattisgarh,Bhilai,"32Bungalows, Bhilai - CECB",31-12-2025 08:00:00,21.194815,81.314770,PM2.5,1,63,35
+India,Chhattisgarh,Bhilai,"32Bungalows, Bhilai - CECB",31-12-2025 08:00:00,21.194815,81.314770,PM10,36,120,75
+India,Chhattisgarh,Bhilai,"Civic Center, Bhilai - Bhilai Steel Plant",31-12-2025 08:00:00,21.185571,81.343175,NH3,6,7,7
+India,Chhattisgarh,Bhilai,"Hathkhoj, Bhilai - CECB",31-12-2025 08:00:00,21.224231,81.408350,OZONE,3,13,4
+India,Chhattisgarh,Bilaspur,"Mangala, Bilaspur - NTPC",31-12-2025 08:00:00,22.08815,82.13737,NO2,20,36,32
+India,Chhattisgarh,Raipur,"Bhatagaon New ISBT, Raipur - CECB",31-12-2025 08:00:00,21.219665,81.630094,OZONE,2,9,2
+India,Chhattisgarh,Raipur,"Krishak Nagar, Raipur - CECB",31-12-2025 08:00:00,21.237755,81.705301,PM2.5,38,77,58
+India,Delhi,Delhi,"Anand Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.647622,77.3158090,PM2.5,338,500,452
+India,Delhi,Delhi,"Anand Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.647622,77.3158090,NO2,23,437,144
+India,Chhattisgarh,Tumidih,"OP Jindal Industrial Park, Tumidih - CECB",31-12-2025 08:00:00,22.06631475,83.33820077,PM2.5,28,350,104
+India,Chandigarh,Chandigarh,"Sector 22, Chandigarh - CPCC",31-12-2025 08:00:00,30.735567,76.775714,PM2.5,153,335,268
+India,Delhi,Delhi,"CRRI Mathura Road, Delhi - IMD",31-12-2025 08:00:00,28.5512005,77.2735737,PM2.5,81,482,352
+India,Delhi,Delhi,"CRRI Mathura Road, Delhi - IMD",31-12-2025 08:00:00,28.5512005,77.2735737,PM10,133,488,310
+India,Delhi,Delhi,"Chandni Chowk, Delhi - IITM",31-12-2025 08:00:00,28.656756,77.227234,PM2.5,328,496,420
+India,Delhi,Delhi,"Chandni Chowk, Delhi - IITM",31-12-2025 08:00:00,28.656756,77.227234,PM10,234,500,393
+India,Delhi,Delhi,"Ashok Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.695381,77.181665,SO2,5,18,11
+India,Delhi,Delhi,"Aya Nagar, Delhi - IMD",31-12-2025 08:00:00,28.4706914,77.1099364,PM2.5,124,430,321
+India,Delhi,Delhi,"Aya Nagar, Delhi - IMD",31-12-2025 08:00:00,28.4706914,77.1099364,OZONE,8,63,8
+India,Delhi,Delhi,"Chandni Chowk, Delhi - IITM",31-12-2025 08:00:00,28.656756,77.227234,CO,103,124,110
+India,Delhi,Delhi,"DTU, Delhi - CPCB",31-12-2025 08:00:00,28.7500499,77.1112615,PM2.5,297,489,375
+India,Delhi,Delhi,"DTU, Delhi - CPCB",31-12-2025 08:00:00,28.7500499,77.1112615,NO2,31,73,63
+India,Delhi,Delhi,"Burari Crossing, Delhi - IMD",31-12-2025 08:00:00,28.7256504,77.2011573,PM2.5,293,444,352
+India,Delhi,Delhi,"Burari Crossing, Delhi - IMD",31-12-2025 08:00:00,28.7256504,77.2011573,NO2,62,166,98
+India,Delhi,Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",31-12-2025 08:00:00,28.6811736,77.3025234,NH3,14,23,18
+India,Delhi,Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",31-12-2025 08:00:00,28.6811736,77.3025234,CO,40,100,60
+India,Delhi,Delhi,"Chandni Chowk, Delhi - IITM",31-12-2025 08:00:00,28.656756,77.227234,NO2,55,141,81
+India,Delhi,Delhi,"Chandni Chowk, Delhi - IITM",31-12-2025 08:00:00,28.656756,77.227234,NH3,8,19,13
+India,Delhi,Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",31-12-2025 08:00:00,28.6811736,77.3025234,PM10,122,415,262
+India,Delhi,Delhi,"Dwarka-Sector 8, Delhi - DPCC ",31-12-2025 08:00:00,28.5710274,77.0719006,NO2,58,102,76
+India,Delhi,Delhi,"Ashok Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.695381,77.181665,NH3,8,9,8
+India,Delhi,Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",31-12-2025 08:00:00,28.611281,77.237738,NH3,22,29,27
+India,Delhi,Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC",31-12-2025 08:00:00,28.611281,77.237738,CO,77,142,136
+India,Delhi,Delhi,"Mandir Marg, Delhi - DPCC",31-12-2025 08:00:00,28.636429,77.201067,NH3,11,17,14
+India,Delhi,Delhi,"Mandir Marg, Delhi - DPCC",31-12-2025 08:00:00,28.636429,77.201067,OZONE,11,96,14
+India,Delhi,Delhi,"Mundka, Delhi - DPCC",31-12-2025 08:00:00,28.684678,77.076574,PM2.5,314,500,399
+India,Delhi,Delhi,"Jahangirpuri, Delhi - DPCC",31-12-2025 08:00:00,28.732820,77.170633,PM10,169,442,320
+India,Delhi,Delhi,"Jahangirpuri, Delhi - DPCC",31-12-2025 08:00:00,28.732820,77.170633,NH3,1,5,2
+India,Delhi,Delhi,"Jahangirpuri, Delhi - DPCC",31-12-2025 08:00:00,28.732820,77.170633,SO2,7,22,15
+India,Delhi,Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",31-12-2025 08:00:00,28.580280,77.233829,PM2.5,197,478,399
+India,Delhi,Delhi,"NSIT Dwarka, Delhi - CPCB",31-12-2025 08:00:00,28.60909,77.0325413,PM2.5,240,368,300
+India,Delhi,Delhi,"NSIT Dwarka, Delhi - CPCB",31-12-2025 08:00:00,28.60909,77.0325413,NO2,63,101,79
+India,Delhi,Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",31-12-2025 08:00:00,28.580280,77.233829,NH3,18,22,20
+India,Delhi,Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",31-12-2025 08:00:00,28.580280,77.233829,SO2,1,30,14
+India,Delhi,Delhi,"Punjabi Bagh, Delhi - DPCC",31-12-2025 08:00:00,28.674045,77.131023,PM2.5,267,500,430
+India,Delhi,Delhi,"Punjabi Bagh, Delhi - DPCC",31-12-2025 08:00:00,28.674045,77.131023,PM10,168,461,363
+India,Delhi,Delhi,"North Campus, DU, Delhi - IMD",31-12-2025 08:00:00,28.6573814,77.1585447,PM10,145,430,301
+India,Delhi,Delhi,"Nehru Nagar, Delhi - DPCC",31-12-2025 08:00:00,28.567890,77.250515,PM2.5,180,500,432
+India,Delhi,Delhi,"Narela, Delhi - DPCC",31-12-2025 08:00:00,28.822836,77.101981,PM2.5,272,496,366
+India,Delhi,Delhi,"Narela, Delhi - DPCC",31-12-2025 08:00:00,28.822836,77.101981,CO,36,116,73
+India,Delhi,Delhi,"Wazirpur, Delhi - DPCC",31-12-2025 08:00:00,28.699793,77.165453,SO2,3,9,6
+India,Delhi,Delhi,"Wazirpur, Delhi - DPCC",31-12-2025 08:00:00,28.699793,77.165453,CO,58,112,100
+India,Delhi,Delhi,"Wazirpur, Delhi - DPCC",31-12-2025 08:00:00,28.699793,77.165453,OZONE,10,43,26
+India,Gujarat,Ahmedabad,"Chandkheda, Ahmedabad - IITM",31-12-2025 08:00:00,23.107969,72.574648,SO2,9,44,16
+India,Gujarat,Ahmedabad,"Chandkheda, Ahmedabad - IITM",31-12-2025 08:00:00,23.107969,72.574648,OZONE,1,76,4
+India,Gujarat,Ahmedabad,"Gyaspur, Ahmedabad - IITM",31-12-2025 08:00:00,22.977134,72.553024,PM2.5,90,463,267
+India,Delhi,Delhi,"Sonia Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.710508,77.249485,SO2,1,6,2
+India,Delhi,Delhi,"Sri Aurobindo Marg, Delhi - DPCC",31-12-2025 08:00:00,28.531346,77.190156,NO2,15,72,47
+India,Delhi,Delhi,"Sri Aurobindo Marg, Delhi - DPCC",31-12-2025 08:00:00,28.531346,77.190156,OZONE,1,76,1
+India,Delhi,Delhi,"Vivek Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.672342,77.315260,PM10,202,500,375
+India,Delhi,Delhi,"Sirifort, Delhi - CPCB",31-12-2025 08:00:00,28.5504249,77.2159377,NO2,40,49,44
+India,Delhi,Delhi,"Sirifort, Delhi - CPCB",31-12-2025 08:00:00,28.5504249,77.2159377,CO,10,142,132
+India,Gujarat,Ahmedabad,"Gyaspur, Ahmedabad - IITM",31-12-2025 08:00:00,22.977134,72.553024,NO2,28,136,86
+India,Gujarat,Ahmedabad,"Gyaspur, Ahmedabad - IITM",31-12-2025 08:00:00,22.977134,72.553024,SO2,2,126,43
+India,Gujarat,Ahmedabad,"Maninagar, Ahmedabad - GPCB",31-12-2025 08:00:00,23.002657,72.591912,SO2,15,53,38
+India,Gujarat,Ahmedabad,"Maninagar, Ahmedabad - GPCB",31-12-2025 08:00:00,23.002657,72.591912,CO,21,45,28
+India,Gujarat,Ahmedabad,"Gyaspur, Ahmedabad - IITM",31-12-2025 08:00:00,22.977134,72.553024,OZONE,29,74,32
+India,Delhi,Delhi,"Rohini, Delhi - DPCC",31-12-2025 08:00:00,28.732528,77.119920,NO2,22,79,48
+India,Delhi,Delhi,"Rohini, Delhi - DPCC",31-12-2025 08:00:00,28.732528,77.119920,SO2,10,17,13
+India,Gujarat,Gandhinagar,"Sector-10, Gandhinagar - GPCB",31-12-2025 08:00:00,23.221714,72.654328,SO2,8,16,13
+India,Gujarat,Gandhinagar,"Sector-10, Gandhinagar - GPCB",31-12-2025 08:00:00,23.221714,72.654328,CO,30,58,39
+India,Gujarat,Surat,"Science Center, Surat - SMC",31-12-2025 08:00:00,21.170046,72.795405,PM2.5,133,324,206
+India,Gujarat,Surat,"Science Center, Surat - SMC",31-12-2025 08:00:00,21.170046,72.795405,NO2,16,16,16
+India,Gujarat,Ahmedabad,"Rakhial, Ahmedabad - IITM",31-12-2025 08:00:00,23.016834,72.625775,CO,NA,NA,NA
+India,Gujarat,Ahmedabad,"SAC ISRO Bopal, Ahmedabad - IITM",31-12-2025 08:00:00,23.041137,72.456691,PM10,108,198,149
+India,Gujarat,Ahmedabad,"SAC ISRO Bopal, Ahmedabad - IITM",31-12-2025 08:00:00,23.041137,72.456691,NO2,16,56,38
+India,Gujarat,Ahmedabad,"SAC ISRO Bopal, Ahmedabad - IITM",31-12-2025 08:00:00,23.041137,72.456691,SO2,1,29,6
+India,Gujarat,Ankleshwar,"GIDC, Ankleshwar - GPCB",31-12-2025 08:00:00,21.613267,73.010555,NH3,7,9,8
+India,Gujarat,Ankleshwar,"GIDC, Ankleshwar - GPCB",31-12-2025 08:00:00,21.613267,73.010555,OZONE,42,53,43
+India,Gujarat,Ahmedabad,"SAC ISRO Satellite, Ahmedabad - IITM",31-12-2025 08:00:00,23.023389,72.515201,OZONE,1,68,3
+India,Gujarat,Gandhinagar,"Sector-10, Gandhinagar - GPCB",31-12-2025 08:00:00,23.221714,72.654328,PM2.5,42,183,91
+India,Gujarat,Gandhinagar,"GIFT City, Gandhinagar - IITM",31-12-2025 08:00:00,23.163798,72.677768,NO2,20,109,56
+India,Gujarat,Gandhinagar,"GIFT City, Gandhinagar - IITM",31-12-2025 08:00:00,23.163798,72.677768,CO,20,59,48
+India,Gujarat,Ankleshwar,"GIDC, Ankleshwar - GPCB",31-12-2025 08:00:00,21.613267,73.010555,PM2.5,96,309,198
+India,Gujarat,Ahmedabad,"Raikhad, Ahmedabad - IITM",31-12-2025 08:00:00,23.020509,72.579261,NO2,16,132,69
+India,Haryana,Charkhi Dadri,"Mini Secretariat, Charkhi Dadri - HSPCB",31-12-2025 08:00:00,28.593883,76.270653,NH3,5,8,6
+India,Haryana,Charkhi Dadri,"Mini Secretariat, Charkhi Dadri - HSPCB",31-12-2025 08:00:00,28.593883,76.270653,CO,11,25,16
+India,Haryana,Dharuhera,"Municipal Corporation Office, Dharuhera -  HSPCB",31-12-2025 08:00:00,28.206800,76.799700,PM10,129,462,284
+India,Haryana,Dharuhera,"Municipal Corporation Office, Dharuhera -  HSPCB",31-12-2025 08:00:00,28.206800,76.799700,NO2,10,36,25
+India,Haryana,Dharuhera,"Municipal Corporation Office, Dharuhera -  HSPCB",31-12-2025 08:00:00,28.206800,76.799700,OZONE,3,25,4
+India,Haryana,Faridabad,"New Industrial Town, Faridabad - HSPCB",31-12-2025 08:00:00,28.39072,77.30059,PM10,170,180,173
+India,Haryana,Bahadurgarh,"Arya Nagar, Bahadurgarh - HSPCB",31-12-2025 08:00:00,28.6701,76.9254,PM10,NA,NA,NA
+India,Haryana,Ballabgarh,"Nathu Colony, Ballabgarh - HSPCB",31-12-2025 08:00:00,28.3419248,77.319699,CO,15,129,24
+India,Haryana,Ballabgarh,"Nathu Colony, Ballabgarh - HSPCB",31-12-2025 08:00:00,28.3419248,77.319699,OZONE,14,15,15
+India,Haryana,Bhiwani,"H.B. Colony, Bhiwani - HSPCB",31-12-2025 08:00:00,28.806223,76.141105,NO2,1,35,31
+India,Haryana,Bhiwani,"H.B. Colony, Bhiwani - HSPCB",31-12-2025 08:00:00,28.806223,76.141105,NH3,1,9,8
+India,Haryana,Ambala,"Patti Mehar, Ambala - HSPCB",31-12-2025 08:00:00,30.379589,76.778328,PM10,77,120,103
+India,Haryana,Ambala,"Patti Mehar, Ambala - HSPCB",31-12-2025 08:00:00,30.379589,76.778328,SO2,31,32,31
+India,Haryana,Gurugram,"NISE Gwal Pahari, Gurugram - IMD",31-12-2025 08:00:00,28.422681,77.148944,PM2.5,44,414,279
+India,Haryana,Gurugram,"NISE Gwal Pahari, Gurugram - IMD",31-12-2025 08:00:00,28.422681,77.148944,OZONE,6,39,8
+India,Haryana,Faridabad,"Sector 11, Faridabad - HSPCB",31-12-2025 08:00:00,28.376058,77.315741,PM10,76,415,200
+India,Haryana,Fatehabad,"Huda Sector, Fatehabad - HSPCB",31-12-2025 08:00:00,29.503664,75.467934,NO2,18,20,19
+India,Haryana,Fatehabad,"Huda Sector, Fatehabad - HSPCB",31-12-2025 08:00:00,29.503664,75.467934,CO,25,36,27
+India,Haryana,Gurugram,"Sector-51, Gurugram - HSPCB",31-12-2025 08:00:00,28.4227,77.0667,PM2.5,200,500,348
+India,Haryana,Mandikhera,"General Hospital, Mandikhera(Nuh) - HSPCB",31-12-2025 08:00:00,27.9002,76.9938,SO2,31,36,34
+India,Haryana,Mandikhera,"General Hospital, Mandikhera(Nuh) - HSPCB",31-12-2025 08:00:00,27.9002,76.9938,CO,NA,NA,NA
+India,Haryana,Manesar,"Sector-2 IMT, Manesar - HSPCB",31-12-2025 08:00:00,28.360699,76.936090,PM10,86,478,195
+India,Haryana,Narnaul,"Shastri Nagar, Narnaul - HSPCB",31-12-2025 08:00:00,28.060249,76.113115,PM2.5,41,308,180
+India,Haryana,Karnal,"Sector-12, Karnal - HSPCB",31-12-2025 08:00:00,29.695300,77.002700,CO,32,59,54
+India,Haryana,Kurukshetra,"Sector-7, Kurukshetra - HSPCB",31-12-2025 08:00:00,29.966942,76.875879,PM2.5,74,302,203
+India,Haryana,Kurukshetra,"Sector-7, Kurukshetra - HSPCB",31-12-2025 08:00:00,29.966942,76.875879,PM10,110,199,167
+India,Haryana,Kurukshetra,"Sector-7, Kurukshetra - HSPCB",31-12-2025 08:00:00,29.966942,76.875879,NH3,5,5,5
+India,Haryana,Kaithal,"Rishi Nagar, Kaithal - HSPCB",31-12-2025 08:00:00,29.8006,76.4155,CO,24,91,50
+India,Haryana,Kaithal,"Rishi Nagar, Kaithal - HSPCB",31-12-2025 08:00:00,29.8006,76.4155,OZONE,2,13,2
+India,Haryana,Karnal,"Sector-12, Karnal - HSPCB",31-12-2025 08:00:00,29.695300,77.002700,NO2,6,7,6
+India,Haryana,Gurugram,"Sector-51, Gurugram - HSPCB",31-12-2025 08:00:00,28.4227,77.0667,OZONE,10,45,11
+India,Haryana,Gurugram,"Teri Gram, Gurugram - HSPCB",31-12-2025 08:00:00,28.4275,77.1465,PM2.5,214,418,323
+India,Haryana,Hisar,"Urban Estate-II, Hisar - HSPCB",31-12-2025 08:00:00,29.140560,75.744941,CO,49,98,52
+India,Haryana,Hisar,"Urban Estate-II, Hisar - HSPCB",31-12-2025 08:00:00,29.140560,75.744941,NH3,10,11,11
+India,Haryana,Kaithal,"Rishi Nagar, Kaithal - HSPCB",31-12-2025 08:00:00,29.8006,76.4155,NO2,8,33,30
+India,Haryana,Gurugram,"Teri Gram, Gurugram - HSPCB",31-12-2025 08:00:00,28.4275,77.1465,OZONE,4,27,4
+India,Haryana,Gurugram,"Sector-51, Gurugram - HSPCB",31-12-2025 08:00:00,28.4227,77.0667,NH3,6,10,8
+India,Haryana,Panchkula,"Sector-6, Panchkula - HSPCB ",31-12-2025 08:00:00,30.7057778,76.8531805555555,SO2,9,13,12
+India,Haryana,Panipat,"Sector-18, Panipat - HSPCB",31-12-2025 08:00:00,29.432304,76.972765,SO2,18,19,19
+India,Haryana,Panipat,"Sector-18, Panipat - HSPCB",31-12-2025 08:00:00,29.432304,76.972765,CO,47,49,48
+India,Jammu_and_Kashmir,Srinagar,"Khunmoh, Srinagar - JKPCC",31-12-2025 08:00:00,34.06313,74.96017,SO2,1,3,2
+India,Jammu_and_Kashmir,Srinagar,"Rajbagh, Srinagar - JKPCC",31-12-2025 08:00:00,34.066206,74.819820,PM2.5,25,47,34
+India,Himachal Pradesh,Baddi,"HIMUDA Complex Phase-1, Baddi - HPPCB",31-12-2025 08:00:00,30.943887,76.801991,PM2.5,233,411,313
+India,Himachal Pradesh,Baddi,"HIMUDA Complex Phase-1, Baddi - HPPCB",31-12-2025 08:00:00,30.943887,76.801991,PM10,169,425,228
+India,Jharkhand,Dhanbad,"Sardar Patel Nagar, Dhanbad - JSPCB",31-12-2025 08:00:00,23.80569,86.44268,SO2,26,27,27
+India,Jammu_and_Kashmir,Pampore,"Khrew, Pampore - JKPCC",31-12-2025 08:00:00,34.031606,75.009712,PM2.5,50,75,62
+India,Haryana,Palwal,"Shyam Nagar, Palwal - HSPCB",31-12-2025 08:00:00,28.1485564,77.3320667,NO2,23,24,24
+India,Haryana,Rohtak,"MD University, Rohtak - HSPCB",31-12-2025 08:00:00,28.52123,76.37138,NO2,10,13,12
+India,Karnataka,Bagalkot,"Vidayagiri, Bagalkot - KSPCB",31-12-2025 08:00:00,16.172806,75.659694,SO2,7,7,7
+India,Haryana,Sonipat,"Murthal, Sonipat - HSPCB",31-12-2025 08:00:00,29.027200,77.062100,SO2,7,10,8
+India,Karnataka,Bengaluru,"Hombegowda Nagar, Bengaluru - KSPCB",31-12-2025 08:00:00,12.938539,77.590100,SO2,11,22,16
+India,Karnataka,Bengaluru,"Hombegowda Nagar, Bengaluru - KSPCB",31-12-2025 08:00:00,12.938539,77.590100,OZONE,1,85,18
+India,Karnataka,Bengaluru,"Jayanagar 5th Block, Bengaluru - KSPCB",31-12-2025 08:00:00,12.920984,77.584908,NO2,11,50,24
+India,Karnataka,Bengaluru,"Jayanagar 5th Block, Bengaluru - KSPCB",31-12-2025 08:00:00,12.920984,77.584908,OZONE,3,78,30
+India,Karnataka,Bengaluru,"Jigani, Bengaluru - KSPCB",31-12-2025 08:00:00,12.7816279,77.6299145,NO2,22,23,23
+India,Karnataka,Bengaluru,"RVCE-Mailasandra, Bengaluru - KSPCB",31-12-2025 08:00:00,12.921418,77.502466,PM10,31,364,128
+India,Karnataka,Bengaluru,"RVCE-Mailasandra, Bengaluru - KSPCB",31-12-2025 08:00:00,12.921418,77.502466,NO2,16,21,21
+India,Karnataka,Bengaluru,"RVCE-Mailasandra, Bengaluru - KSPCB",31-12-2025 08:00:00,12.921418,77.502466,CO,26,64,53
+India,Karnataka,Bengaluru,"Sanegurava Halli, Bengaluru - KSPCB",31-12-2025 08:00:00,12.990328,77.5431385,PM10,46,65,58
+India,Karnataka,Bengaluru,"Sanegurava Halli, Bengaluru - KSPCB",31-12-2025 08:00:00,12.990328,77.5431385,NO2,17,18,18
+India,Karnataka,Bengaluru,"Jigani, Bengaluru - KSPCB",31-12-2025 08:00:00,12.7816279,77.6299145,NH3,4,4,4
+India,Karnataka,Bengaluru,"Jigani, Bengaluru - KSPCB",31-12-2025 08:00:00,12.7816279,77.6299145,OZONE,23,24,23
+India,Karnataka,Bengaluru,"Kasturi Nagar, Bengaluru - KSPCB",31-12-2025 08:00:00,13.003872,77.664217,PM10,79,101,94
+India,Karnataka,Bengaluru,"Peenya, Bengaluru - CPCB",31-12-2025 08:00:00,13.0270199,77.494094,PM10,80,174,111
+India,Karnataka,Bengaluru,"RVCE-Mailasandra, Bengaluru - KSPCB",31-12-2025 08:00:00,12.921418,77.502466,PM2.5,26,500,150
+India,Karnataka,Bengaluru,"BWSSB Kadabesanahalli, Bengaluru - CPCB",31-12-2025 08:00:00,12.9352049,77.6814488,PM10,106,296,196
+India,Karnataka,Bengaluru,"BWSSB Kadabesanahalli, Bengaluru - CPCB",31-12-2025 08:00:00,12.9352049,77.6814488,NH3,NA,NA,NA
+India,Karnataka,Bengaluru,"Sanegurava Halli, Bengaluru - KSPCB",31-12-2025 08:00:00,12.990328,77.5431385,CO,10,50,14
+India,Karnataka,Bengaluru,"Shivapura_Peenya, Bengaluru - KSPCB",31-12-2025 08:00:00,13.0246342,77.5080115,SO2,7,12,10
+India,Karnataka,Bengaluru,"Kasturi Nagar, Bengaluru - KSPCB",31-12-2025 08:00:00,13.003872,77.664217,NH3,2,3,3
+India,Karnataka,Chikkamagaluru,"Kalyana Nagara, Chikkamagaluru - KSPCB",31-12-2025 08:00:00,13.328028,75.797056,PM2.5,26,72,50
+India,Karnataka,Bengaluru,"Silk Board, Bengaluru - KSPCB",31-12-2025 08:00:00,12.917348,77.622813,OZONE,3,29,19
+India,Karnataka,Madikeri,"Stuart Hill, Madikeri - KSPCB",31-12-2025 08:00:00,12.415911,75.735050,PM2.5,35,65,50
+India,Karnataka,Koppal,"Diwator Nagar, Koppal - KSPCB",31-12-2025 08:00:00,15.347630,76.181767,PM10,55,108,76
+India,Karnataka,Bengaluru,"Silk Board, Bengaluru - KSPCB",31-12-2025 08:00:00,12.917348,77.622813,NO2,10,20,14
+India,Karnataka,Madikeri,"Stuart Hill, Madikeri - KSPCB",31-12-2025 08:00:00,12.415911,75.735050,PM10,31,59,45
+India,Karnataka,Chamarajanagar,"Urban, Chamarajanagar - KSPCB",31-12-2025 08:00:00,11.55358,76.55521,CO,17,120,31
+India,Karnataka,Koppal,"Diwator Nagar, Koppal - KSPCB",31-12-2025 08:00:00,15.347630,76.181767,OZONE,2,25,8
+India,Karnataka,Dharwad,"Kalabhavan, Dharwad - KSPCB",31-12-2025 08:00:00,15.459706,75.008381,OZONE,26,32,32
+India,Kerala,Kannur,"Thavakkara, Kannur - Kerala PCB",31-12-2025 08:00:00,11.875000,75.373200,SO2,6,8,7
+India,Kerala,Thiruvananthapuram,"Kariavattom, Thiruvananthapuram - Kerala PCB",31-12-2025 08:00:00,8.563700,76.886500,PM2.5,153,312,252
+India,Kerala,Thiruvananthapuram,"Kariavattom, Thiruvananthapuram - Kerala PCB",31-12-2025 08:00:00,8.563700,76.886500,NH3,NA,NA,NA
+India,Kerala,Thiruvananthapuram,"Kariavattom, Thiruvananthapuram - Kerala PCB",31-12-2025 08:00:00,8.563700,76.886500,CO,42,114,59
+India,Kerala,Thiruvananthapuram,"Plammoodu, Thiruvananthapuram - Kerala PCB",31-12-2025 08:00:00,8.5149093,76.9435879,PM2.5,55,124,70
+India,Kerala,Thiruvananthapuram,"Plammoodu, Thiruvananthapuram - Kerala PCB",31-12-2025 08:00:00,8.5149093,76.9435879,SO2,7,28,17
+India,Kerala,Thrissur,"Corporation Ground, Thrissur - Kerala PCB",31-12-2025 08:00:00,10.532400,76.215900,PM2.5,41,66,56
+India,Madhya Pradesh,Bhopal,"Idgah Hills, Bhopal - MPPCB",31-12-2025 08:00:00,23.264759,77.381568,CO,25,75,38
+India,Madhya Pradesh,Bhopal,"Paryavaran Parisar, Bhopal - MPPCB",31-12-2025 08:00:00,23.210494,77.425409,NO2,25,108,59
+India,Karnataka,Mysuru,"Hebbal 1st Stage, Mysuru - KSPCB",31-12-2025 08:00:00,12.21041,76.37376,PM10,60,110,82
+India,Karnataka,Mysuru,"Hebbal 1st Stage, Mysuru - KSPCB",31-12-2025 08:00:00,12.21041,76.37376,CO,21,39,28
+India,Karnataka,Mangalore,"Kadri, Mangalore - KSPCB",31-12-2025 08:00:00,12.889250,74.853000,NO2,NA,NA,NA
+India,Karnataka,Mangalore,"Kadri, Mangalore - KSPCB",31-12-2025 08:00:00,12.889250,74.853000,SO2,NA,NA,NA
+India,Kerala,Thrissur,"Corporation Ground, Thrissur - Kerala PCB",31-12-2025 08:00:00,10.532400,76.215900,NO2,6,8,7
+India,Madhya Pradesh,Bhopal,"T T Nagar, Bhopal - MPPCB",31-12-2025 08:00:00,23.233584,77.400574,PM2.5,53,322,160
+India,Karnataka,Shivamogga,"Vinoba Nagara, Shivamogga - KSPCB",31-12-2025 08:00:00,13.940000,75.555917,CO,8,40,13
+India,Kerala,Eloor,"Udyogamandal, Eloor - Kerala PCB",31-12-2025 08:00:00,10.073232,76.302765,CO,11,101,17
+India,Karnataka,Mangalore,"Kadri, Mangalore - KSPCB",31-12-2025 08:00:00,12.889250,74.853000,PM2.5,NA,NA,NA
+India,Madhya Pradesh,Dewas,"Bhopal Chauraha, Dewas - MPPCB",31-12-2025 08:00:00,22.9682591,76.064118,OZONE,53,229,129
+India,Madhya Pradesh,Gwalior,"City Center, Gwalior - MPPCB",31-12-2025 08:00:00,26.203442,78.193251,PM2.5,92,374,206
+India,Madhya Pradesh,Gwalior,"City Center, Gwalior - MPPCB",31-12-2025 08:00:00,26.203442,78.193251,NH3,4,7,5
+India,Madhya Pradesh,Gwalior,"Deen Dayal Nagar, Gwalior - MPPCB",31-12-2025 08:00:00,26.259242,78.216432,PM10,63,432,169
+India,Madhya Pradesh,Katni,"Gole Bazar, Katni - MPPCB",31-12-2025 08:00:00,23.50016,80.23284,NO2,26,91,54
+India,Madhya Pradesh,Katni,"Gole Bazar, Katni - MPPCB",31-12-2025 08:00:00,23.50016,80.23284,SO2,5,45,28
+India,Madhya Pradesh,Mandideep,"Sector-D Industrial Area, Mandideep - MPPCB",31-12-2025 08:00:00,23.108440,77.511428,NO2,113,192,149
+India,Madhya Pradesh,Mandideep,"Sector-D Industrial Area, Mandideep - MPPCB",31-12-2025 08:00:00,23.108440,77.511428,NH3,6,9,8
+India,Madhya Pradesh,Jabalpur,"Gupteshwar, Jabalpur - JMC",31-12-2025 08:00:00,23.142888,79.916147,PM10,34,119,61
+India,Madhya Pradesh,Jabalpur,"Gupteshwar, Jabalpur - JMC",31-12-2025 08:00:00,23.142888,79.916147,SO2,13,16,15
+India,Madhya Pradesh,Jabalpur,"Marhatal, Jabalpur - MPPCB",31-12-2025 08:00:00,23.168606,79.932247,NO2,8,58,22
+India,Madhya Pradesh,Jabalpur,"Marhatal, Jabalpur - MPPCB",31-12-2025 08:00:00,23.168606,79.932247,SO2,13,25,17
+India,Madhya Pradesh,Jabalpur,"Marhatal, Jabalpur - MPPCB",31-12-2025 08:00:00,23.168606,79.932247,OZONE,8,110,35
+India,Madhya Pradesh,Pithampur,"Sector-2 Industrial Area, Pithampur - MPPCB",31-12-2025 08:00:00,22.624758,75.675238,PM10,74,441,158
+India,Madhya Pradesh,Pithampur,"Sector-2 Industrial Area, Pithampur - MPPCB",31-12-2025 08:00:00,22.624758,75.675238,NO2,19,28,24
+India,Madhya Pradesh,Indore,"Chhoti Gwaltoli, Indore - MPPCB",31-12-2025 08:00:00,22.4310,75.5213,CO,35,134,123
+India,Madhya Pradesh,Indore,"Chhoti Gwaltoli, Indore - MPPCB",31-12-2025 08:00:00,22.4310,75.5213,OZONE,4,79,4
+India,Madhya Pradesh,Damoh,"Shrivastav Colony, Damoh - MPPCB",31-12-2025 08:00:00,23.81748678,79.446246,PM2.5,4,54,22
+India,Madhya Pradesh,Damoh,"Shrivastav Colony, Damoh - MPPCB",31-12-2025 08:00:00,23.81748678,79.446246,PM10,5,82,33
+India,Madhya Pradesh,Gwalior,"Maharaj Bada, Gwalior - MPPCB",31-12-2025 08:00:00,26.200388,78.147714,PM2.5,78,398,177
+India,Madhya Pradesh,Bhopal,"T T Nagar, Bhopal - MPPCB",31-12-2025 08:00:00,23.233584,77.400574,SO2,14,76,26
+India,Madhya Pradesh,Indore,"Maguda Nagar, Indore - IMC",31-12-2025 08:00:00,22.7524,75.8872,PM2.5,NA,NA,NA
+India,Madhya Pradesh,Ratlam,"Shasthri Nagar, Ratlam - IPCA Lab",31-12-2025 08:00:00,23.331731,75.045981,NO2,3,24,10
+India,Madhya Pradesh,Ratlam,"Shasthri Nagar, Ratlam - IPCA Lab",31-12-2025 08:00:00,23.331731,75.045981,SO2,32,35,33
+India,Madhya Pradesh,Sagar,"Deen Dayal Nagar, Sagar - MPPCB",31-12-2025 08:00:00,23.8640158,78.80289321,PM10,45,180,109
+India,Maharashtra,Akola,"Ramdaspeth, Akola - MPCB",31-12-2025 08:00:00,20.719516,77.000253,NH3,4,6,5
+India,Maharashtra,Amravati,"Shivneri Colony, Amravati - MPCB",31-12-2025 08:00:00,20.9402359,77.7895248,PM2.5,60,103,77
+India,Madhya Pradesh,Satna,"Bandhavgar Colony, Satna - Birla Cement",31-12-2025 08:00:00,24.58434363,80.8549414,SO2,19,21,20
+India,Madhya Pradesh,Singrauli,"Suryakiran Bhawan NCL, Singrauli - MPPCB",31-12-2025 08:00:00,24.108970,82.645580,PM2.5,NA,NA,NA
+India,Madhya Pradesh,Singrauli,"Suryakiran Bhawan NCL, Singrauli - MPPCB",31-12-2025 08:00:00,24.108970,82.645580,OZONE,NA,NA,NA
+India,Madhya Pradesh,Singrauli,"Suryakiran Bhawan NCL, Singrauli - MPPCB",31-12-2025 08:00:00,24.108970,82.645580,CO,NA,NA,NA
+India,Maharashtra,Aurangabad,"More Chowk Waluj, Aurangabad - MPCB",31-12-2025 08:00:00,19.8389439,75.244448,PM10,42,102,68
+India,Maharashtra,Amravati,"Shivneri Colony, Amravati - MPCB",31-12-2025 08:00:00,20.9402359,77.7895248,NH3,2,3,2
+India,Maharashtra,Ahmednagar,"Tarakpur, Ahmednagar - MPCB",31-12-2025 08:00:00,19.10122,74.73339,CO,19,163,37
+India,Maharashtra,Aurangabad,"More Chowk Waluj, Aurangabad - MPCB",31-12-2025 08:00:00,19.8389439,75.244448,SO2,11,18,14
+India,Maharashtra,Aurangabad,"More Chowk Waluj, Aurangabad - MPCB",31-12-2025 08:00:00,19.8389439,75.244448,OZONE,6,122,22
+India,Maharashtra,Badlapur,"Katrap, Badlapur - MPCB",31-12-2025 08:00:00,19.16485,73.23409,NH3,4,7,6
+India,Maharashtra,Badlapur,"Katrap, Badlapur - MPCB",31-12-2025 08:00:00,19.16485,73.23409,SO2,7,16,10
+India,Maharashtra,Badlapur,"Katrap, Badlapur - MPCB",31-12-2025 08:00:00,19.16485,73.23409,OZONE,12,88,14
+India,Maharashtra,Belapur,"CBD Belapur, Belapur - MPCB",31-12-2025 08:00:00,19.0243902,73.0406721,PM2.5,54,116,77
+India,Maharashtra,Belapur,"CBD Belapur, Belapur - MPCB",31-12-2025 08:00:00,19.0243902,73.0406721,SO2,NA,NA,NA
+India,Maharashtra,Belapur,"CBD Belapur, Belapur - MPCB",31-12-2025 08:00:00,19.0243902,73.0406721,OZONE,7,75,10
+India,Maharashtra,Bhiwandi,"Gokul Nagar, Bhiwandi - MPCB",31-12-2025 08:00:00,19.309073,73.057223,PM2.5,87,231,153
+India,Maharashtra,Bhiwandi,"Gokul Nagar, Bhiwandi - MPCB",31-12-2025 08:00:00,19.309073,73.057223,NH3,4,9,6
+India,Maharashtra,Chandrapur,"MIDC Khutala, Chandrapur - MPCB",31-12-2025 08:00:00,19.9775302,79.2337086,PM2.5,43,169,87
+India,Maharashtra,Chandrapur,"MIDC Khutala, Chandrapur - MPCB",31-12-2025 08:00:00,19.9775302,79.2337086,NO2,26,59,40
+India,Maharashtra,Chandrapur,"MIDC Khutala, Chandrapur - MPCB",31-12-2025 08:00:00,19.9775302,79.2337086,SO2,8,9,9
+India,Maharashtra,Boisar,"Khaira, Boisar - MPCB",31-12-2025 08:00:00,19.786089,72.757971,PM2.5,63,227,125
+India,Maharashtra,Dhule,"Deopur, Dhule - MPCB",31-12-2025 08:00:00,20.918946,74.776388,PM2.5,87,298,160
+India,Maharashtra,Boisar,"Khaira, Boisar - MPCB",31-12-2025 08:00:00,19.786089,72.757971,OZONE,1,95,10
+India,Maharashtra,Dhule,"Deopur, Dhule - MPCB",31-12-2025 08:00:00,20.918946,74.776388,CO,28,77,36
+India,Maharashtra,Dhule,"Deopur, Dhule - MPCB",31-12-2025 08:00:00,20.918946,74.776388,NO2,5,48,18
+India,Maharashtra,Kalyan,"Khadakpada, Kalyan - MPCB",31-12-2025 08:00:00,19.25292,73.142019,NO2,36,37,36
+India,Maharashtra,Kalyan,"Khadakpada, Kalyan - MPCB",31-12-2025 08:00:00,19.25292,73.142019,NH3,1,1,1
+India,Maharashtra,Kalyan,"Khadakpada, Kalyan - MPCB",31-12-2025 08:00:00,19.25292,73.142019,CO,83,102,98
+India,Maharashtra,Kalyan,"Pimpleshwar Mandir, Kalyan - MPCB",31-12-2025 08:00:00,19.192056,72.9585188,NH3,2,7,4
+India,Maharashtra,Kalyan,"Pimpleshwar Mandir, Kalyan - MPCB",31-12-2025 08:00:00,19.192056,72.9585188,SO2,10,42,18
+India,Maharashtra,Kolhapur,"Shivaji University, Kolhapur - MPCB",31-12-2025 08:00:00,16.6870449,74.2505872,PM2.5,44,304,108
+India,Maharashtra,Kolhapur,"Shivaji University, Kolhapur - MPCB",31-12-2025 08:00:00,16.6870449,74.2505872,SO2,2,4,3
+India,Maharashtra,Kolhapur,"Sinchan Bhavan, Kolhapur - MPCB",31-12-2025 08:00:00,16.7143745,74.2426398,PM2.5,48,152,88
+India,Maharashtra,Kolhapur,"Sinchan Bhavan, Kolhapur - MPCB",31-12-2025 08:00:00,16.7143745,74.2426398,PM10,36,134,84
+India,Maharashtra,Kolhapur,"Sinchan Bhavan, Kolhapur - MPCB",31-12-2025 08:00:00,16.7143745,74.2426398,NH3,5,16,9
+India,Maharashtra,Kolhapur,"Sinchan Bhavan, Kolhapur - MPCB",31-12-2025 08:00:00,16.7143745,74.2426398,SO2,2,11,4
+India,Maharashtra,Mahad,"Kamble Tarf Birwadi, Mahad - MPCB",31-12-2025 08:00:00,18.1023399,73.4783687,SO2,22,131,41
+India,Maharashtra,Malegaon,"Mahesh Nagar, Malegaon - MPCB",31-12-2025 08:00:00,20.555712,74.529236,PM10,86,184,124
+India,Maharashtra,Malegaon,"Mahesh Nagar, Malegaon - MPCB",31-12-2025 08:00:00,20.555712,74.529236,NO2,15,148,41
+India,Maharashtra,Mumbai,"Bandra Kurla Complex, Mumbai - IITM",31-12-2025 08:00:00,19.053536,72.84643,NH3,1,18,8
+India,Maharashtra,Mumbai,"Bandra Kurla Complex, Mumbai - IITM",31-12-2025 08:00:00,19.053536,72.84643,CO,39,82,50
+India,Maharashtra,Jalgaon,"Prabhat Colony, Jalgaon - MPCB",31-12-2025 08:00:00,21.001264,75.565602,PM10,93,174,130
+India,Maharashtra,Jalgaon,"Prabhat Colony, Jalgaon - MPCB",31-12-2025 08:00:00,21.001264,75.565602,NH3,2,3,2
+India,Maharashtra,Jalgaon,"Prabhat Colony, Jalgaon - MPCB",31-12-2025 08:00:00,21.001264,75.565602,CO,5,59,8
+India,Maharashtra,Jalna,"Old MIDC, Jalna - MPCB",31-12-2025 08:00:00,19.854616,75.905894,PM2.5,NA,NA,NA
+India,Maharashtra,Jalna,"Old MIDC, Jalna - MPCB",31-12-2025 08:00:00,19.854616,75.905894,NO2,12,27,19
+India,Maharashtra,Mumbai,"Borivali East, Mumbai - MPCB",31-12-2025 08:00:00,19.2243333,72.8658113,SO2,16,20,18
+India,Maharashtra,Mumbai,"Byculla, Mumbai - BMC",31-12-2025 08:00:00,18.9767,72.8380,PM2.5,111,261,169
+India,Maharashtra,Mahad,"Kamble Tarf Birwadi, Mahad - MPCB",31-12-2025 08:00:00,18.1023399,73.4783687,PM2.5,72,222,107
+India,Maharashtra,Mahad,"Kamble Tarf Birwadi, Mahad - MPCB",31-12-2025 08:00:00,18.1023399,73.4783687,PM10,56,275,97
+India,Maharashtra,Mumbai,"Byculla, Mumbai - BMC",31-12-2025 08:00:00,18.9767,72.8380,CO,22,76,61
+India,Maharashtra,Mumbai,"Byculla, Mumbai - BMC",31-12-2025 08:00:00,18.9767,72.8380,OZONE,1,62,8
+India,Maharashtra,Mumbai,"Bandra Kurla Complex, Mumbai - MPCB",31-12-2025 08:00:00,19.065931,72.862131,NO2,36,81,59
+India,Maharashtra,Mumbai,"Borivali East, Mumbai - IITM",31-12-2025 08:00:00,19.23241,72.86895,CO,38,84,52
+India,Maharashtra,Dhule,"Deopur, Dhule - MPCB",31-12-2025 08:00:00,20.918946,74.776388,OZONE,16,61,18
+India,Maharashtra,Mumbai,"Chakala-Andheri East, Mumbai - IITM",31-12-2025 08:00:00,19.11074,72.86084,NH3,13,30,20
+India,Maharashtra,Mumbai,"Chakala-Andheri East, Mumbai - IITM",31-12-2025 08:00:00,19.11074,72.86084,CO,19,82,40
+India,Maharashtra,Mumbai,"Chembur, Mumbai - MPCB",31-12-2025 08:00:00,19.0364585,72.8954371,NO2,33,89,58
+India,Maharashtra,Mumbai,"Chembur, Mumbai - MPCB",31-12-2025 08:00:00,19.0364585,72.8954371,NH3,6,8,7
+India,Maharashtra,Mumbai,"Chembur, Mumbai - MPCB",31-12-2025 08:00:00,19.0364585,72.8954371,SO2,2,103,13
+India,Maharashtra,Mumbai,"Chembur, Mumbai - MPCB",31-12-2025 08:00:00,19.0364585,72.8954371,OZONE,1,108,16
+India,Maharashtra,Mumbai,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",31-12-2025 08:00:00,19.10078,72.87462,PM10,105,156,125
+India,Andhra_Pradesh,Amaravati,"Secretariat, Amaravati - APPCB",31-12-2025 08:00:00,16.5150833,80.5181667,PM2.5,212,272,236
+India,Andhra_Pradesh,Amaravati,"Secretariat, Amaravati - APPCB",31-12-2025 08:00:00,16.5150833,80.5181667,NH3,7,9,8
+India,Andhra_Pradesh,Anantapur,"Gulzarpet, Anantapur - APPCB",31-12-2025 08:00:00,14.675886,77.593027,NH3,4,5,5
+India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",31-12-2025 08:00:00,13.204880,79.097889,PM10,37,152,93
+India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",31-12-2025 08:00:00,27.103358,93.679645,PM10,53,182,100
+India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",31-12-2025 08:00:00,27.103358,93.679645,NH3,NA,NA,NA
+India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",31-12-2025 08:00:00,27.103358,93.679645,SO2,9,10,9
+India,Andhra_Pradesh,Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB",31-12-2025 08:00:00,17.72,83.3,PM10,148,421,239
+India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",31-12-2025 08:00:00,16.509717,80.612222,NH3,3,7,5
+India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",31-12-2025 08:00:00,27.103358,93.679645,PM2.5,44,280,109
+India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB",31-12-2025 08:00:00,16.536107,80.594233,PM10,35,89,63
+India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB",31-12-2025 08:00:00,13.615387,79.409230,NO2,27,32,30
+India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB",31-12-2025 08:00:00,13.615387,79.409230,CO,28,46,32
+India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB",31-12-2025 08:00:00,16.536107,80.594233,CO,19,44,20
+India,Andhra_Pradesh,Vijayawada,"Kanuru, Vijayawada - APPCB",31-12-2025 08:00:00,16.486692,80.699436,PM10,31,100,54
+India,Assam,Silchar,"Tarapur, Silchar - PCBA",31-12-2025 08:00:00,24.82827,92.79525,PM2.5,36,76,56
+India,Assam,Silchar,"Tarapur, Silchar - PCBA",31-12-2025 08:00:00,24.82827,92.79525,NH3,1,2,2
+India,Assam,Silchar,"Tarapur, Silchar - PCBA",31-12-2025 08:00:00,24.82827,92.79525,OZONE,1,2,1
+India,Bihar,Araria,"Kharahiya Basti, Araria - BSPCB",31-12-2025 08:00:00,26.146529,87.454184,PM2.5,82,363,229
+India,Bihar,Arrah,"New DM Office, Arrah - BSPCB",31-12-2025 08:00:00,25.5626095,84.663264,NO2,5,9,7
+India,Bihar,Arrah,"New DM Office, Arrah - BSPCB",31-12-2025 08:00:00,25.5626095,84.663264,NH3,1,1,1
+India,Assam,Byrnihat,"Central Academy for SFS, Byrnihat - PCBA",31-12-2025 08:00:00,26.071318,91.87488,OZONE,14,24,16
+India,Bihar,Bettiah,"Kamalnath Nagar, Bettiah - BSPCB",31-12-2025 08:00:00,26.80365,84.51954,PM10,19,159,84
+India,Bihar,Bhagalpur,"Mayaganj, Bhagalpur - BSPCB",31-12-2025 08:00:00,25.265194,87.012947,PM2.5,60,183,93
+India,Bihar,Araria,"Kharahiya Basti, Araria - BSPCB",31-12-2025 08:00:00,26.146529,87.454184,SO2,15,40,29
+India,Bihar,Bettiah,"Kamalnath Nagar, Bettiah - BSPCB",31-12-2025 08:00:00,26.80365,84.51954,CO,45,99,53
+India,Assam,Guwahati,"LGBI Airport, Guwahati - PCBA",31-12-2025 08:00:00,26.10887,91.589544,NO2,13,86,26
+India,Assam,Guwahati,"Pan Bazaar, Guwahati - PCBA",31-12-2025 08:00:00,26.187500,91.744194,PM2.5,1,1,1
+India,Bihar,Bihar Sharif,"D M Colony, Bihar Sharif - BSPCB",31-12-2025 08:00:00,25.204762,85.514960,PM10,71,190,105
+India,Bihar,Bihar Sharif,"D M Colony, Bihar Sharif - BSPCB",31-12-2025 08:00:00,25.204762,85.514960,SO2,9,10,10
+India,Bihar,Buxar,"Charitra Van, Buxar - BSPCB",31-12-2025 08:00:00,25.567520,83.966379,NH3,3,3,3
+India,Bihar,Gaya,"Kareemganj, Gaya - BSPCB",31-12-2025 08:00:00,24.792403,84.992416,SO2,16,18,17
+India,Bihar,Gaya,"Kareemganj, Gaya - BSPCB",31-12-2025 08:00:00,24.792403,84.992416,CO,39,46,41
+India,Bihar,Gaya,"SFTI Kusdihra, Gaya - BSPCB",31-12-2025 08:00:00,24.762518,84.982348,PM2.5,NA,NA,NA
+India,Bihar,Gaya,"SFTI Kusdihra, Gaya - BSPCB",31-12-2025 08:00:00,24.762518,84.982348,PM10,NA,NA,NA
+India,Bihar,Manguraha,"Forest Rest House, Manguraha - BSPCB",31-12-2025 08:00:00,27.308328,84.531742,NO2,5,8,6
+India,Bihar,Manguraha,"Forest Rest House, Manguraha - BSPCB",31-12-2025 08:00:00,27.308328,84.531742,SO2,16,17,16
+India,Bihar,Manguraha,"Forest Rest House, Manguraha - BSPCB",31-12-2025 08:00:00,27.308328,84.531742,CO,31,34,32
+India,Bihar,Gaya,"SFTI Kusdihra, Gaya - BSPCB",31-12-2025 08:00:00,24.762518,84.982348,OZONE,NA,NA,NA
+India,Bihar,Hajipur,"Industrial Area, Hajipur - BSPCB",31-12-2025 08:00:00,25.697189,85.245900,CO,5,72,35
+India,Bihar,Gaya,"Collectorate, Gaya - BSPCB",31-12-2025 08:00:00,24.7955,84.9994,PM2.5,48,500,145
+India,Bihar,Gaya,"Collectorate, Gaya - BSPCB",31-12-2025 08:00:00,24.7955,84.9994,NO2,9,9,9
+India,Bihar,Gaya,"Collectorate, Gaya - BSPCB",31-12-2025 08:00:00,24.7955,84.9994,SO2,NA,NA,NA
+India,Bihar,Katihar,"Mirchaibari, Katihar - BSPCB",31-12-2025 08:00:00,25.560083,87.553265,NH3,1,1,1
+India,Bihar,Katihar,"Mirchaibari, Katihar - BSPCB",31-12-2025 08:00:00,25.560083,87.553265,SO2,13,22,17
+India,Bihar,Kishanganj,"SDM Office_Khagra, Kishanganj - BSPCB",31-12-2025 08:00:00,26.0881305,87.93840336,PM2.5,65,78,73
+India,Bihar,Chhapra,"Darshan Nagar, Chhapra - BSPCB",31-12-2025 08:00:00,25.7808257,84.7446768,PM2.5,62,210,137
+India,Bihar,Hajipur,"Industrial Area, Hajipur - BSPCB",31-12-2025 08:00:00,25.697189,85.245900,OZONE,5,74,12
+India,Bihar,Muzaffarpur,"Buddha Colony, Muzaffarpur - BSPCB",31-12-2025 08:00:00,26.11442,85.39813,PM2.5,153,282,224
+India,Bihar,Muzaffarpur,"Buddha Colony, Muzaffarpur - BSPCB",31-12-2025 08:00:00,26.11442,85.39813,NH3,5,8,6
+India,Bihar,Muzaffarpur,"Buddha Colony, Muzaffarpur - BSPCB",31-12-2025 08:00:00,26.11442,85.39813,SO2,2,7,5
+India,Bihar,Muzaffarpur,"Buddha Colony, Muzaffarpur - BSPCB",31-12-2025 08:00:00,26.11442,85.39813,CO,30,65,44
+India,Bihar,Muzaffarpur,"Buddha Colony, Muzaffarpur - BSPCB",31-12-2025 08:00:00,26.11442,85.39813,OZONE,15,49,18
+India,Bihar,Muzaffarpur,"MIT-Daudpur Kothi, Muzaffarpur - BSPCB",31-12-2025 08:00:00,26.1403345,85.3650192,PM2.5,88,117,104
+India,Bihar,Muzaffarpur,"Muzaffarpur Collectorate, Muzaffarpur - BSPCB",31-12-2025 08:00:00,26.1209,85.3647,PM2.5,95,127,108
+India,Bihar,Muzaffarpur,"Muzaffarpur Collectorate, Muzaffarpur - BSPCB",31-12-2025 08:00:00,26.1209,85.3647,NO2,10,17,12
+India,Bihar,Muzaffarpur,"Muzaffarpur Collectorate, Muzaffarpur - BSPCB",31-12-2025 08:00:00,26.1209,85.3647,SO2,5,6,5
+India,Bihar,Purnia,"Mariam Nagar, Purnia - BSPCB",31-12-2025 08:00:00,25.366336,87.117468,SO2,14,17,15
+India,Bihar,Rajgir,"Dangi Tola, Rajgir - BSPCB",31-12-2025 08:00:00,25.03280,85.41948,SO2,19,23,21
+India,Bihar,Patna,"Samanpura, Patna - BSPCB",31-12-2025 08:00:00,25.596727,85.085624,PM2.5,76,120,97
+India,Bihar,Patna,"Samanpura, Patna - BSPCB",31-12-2025 08:00:00,25.596727,85.085624,PM10,82,130,107
+India,Bihar,Patna,"Govt. High School Shikarpur, Patna - BSPCB",31-12-2025 08:00:00,25.592539,85.227158,NO2,11,17,14
+India,Bihar,Patna,"Govt. High School Shikarpur, Patna - BSPCB",31-12-2025 08:00:00,25.592539,85.227158,OZONE,7,12,10
+India,Bihar,Purnia,"Mariam Nagar, Purnia - BSPCB",31-12-2025 08:00:00,25.366336,87.117468,PM2.5,97,313,223
+India,Bihar,Patna,"Rajbansi Nagar, Patna - BSPCB",31-12-2025 08:00:00,25.599486,85.113666,SO2,5,8,6
+India,Bihar,Patna,"Muradpur, Patna - BSPCB",31-12-2025 08:00:00,25.619651,85.147382,CO,38,70,53
+India,Bihar,Samastipur,"DM Office_Kasipur, Samastipur - BSPCB",31-12-2025 08:00:00,25.859655,85.77944,SO2,20,29,24
+India,Bihar,Sasaram,"Dada Peer, Sasaram - BSPCB",31-12-2025 08:00:00,24.952822,84.002396,PM2.5,37,123,61
+India,Bihar,Sasaram,"Dada Peer, Sasaram - BSPCB",31-12-2025 08:00:00,24.952822,84.002396,PM10,86,185,120
+India,Bihar,Sasaram,"Dada Peer, Sasaram - BSPCB",31-12-2025 08:00:00,24.952822,84.002396,NH3,3,3,3
+India,Bihar,Sasaram,"Dada Peer, Sasaram - BSPCB",31-12-2025 08:00:00,24.952822,84.002396,OZONE,15,20,17
+India,Bihar,Siwan,"Chitragupta Nagar, Siwan - BSPCB",31-12-2025 08:00:00,26.2271665,84.3570427,PM2.5,50,117,80
+India,Bihar,Siwan,"Chitragupta Nagar, Siwan - BSPCB",31-12-2025 08:00:00,26.2271665,84.3570427,NH3,1,1,1
+India,Bihar,Siwan,"Chitragupta Nagar, Siwan - BSPCB",31-12-2025 08:00:00,26.2271665,84.3570427,SO2,10,10,10
+India,Bihar,Siwan,"Chitragupta Nagar, Siwan - BSPCB",31-12-2025 08:00:00,26.2271665,84.3570427,CO,68,108,77
+India,Chhattisgarh,Chhal,"Nawapara SECL Colony, Chhal - CECB",31-12-2025 08:00:00,22.118125,83.140608,NH3,5,5,5
+India,Chhattisgarh,Chhal,"Nawapara SECL Colony, Chhal - CECB",31-12-2025 08:00:00,22.118125,83.140608,OZONE,1,93,1
+India,Chhattisgarh,Korba,"Rampur, Korba - CECB",31-12-2025 08:00:00,22.368195,82.746431,PM2.5,30,139,68
+India,Chhattisgarh,Korba,"Urja Nagar, Korba - CECB",31-12-2025 08:00:00,22.348441,82.549611,PM10,NA,NA,NA
+India,Chandigarh,Chandigarh,"Sector-53, Chandigarh - CPCC",31-12-2025 08:00:00,30.719859,76.738637,SO2,6,14,10
+India,Chandigarh,Chandigarh,"Sector-53, Chandigarh - CPCC",31-12-2025 08:00:00,30.719859,76.738637,CO,14,129,42
+India,Chhattisgarh,Bhilai,"Civic Center, Bhilai - Bhilai Steel Plant",31-12-2025 08:00:00,21.185571,81.343175,NO2,25,25,25
+India,Chhattisgarh,Bhilai,"Hathkhoj, Bhilai - CECB",31-12-2025 08:00:00,21.224231,81.408350,NO2,4,49,29
+India,Chhattisgarh,Bhilai,"Hathkhoj, Bhilai - CECB",31-12-2025 08:00:00,21.224231,81.408350,CO,24,113,75
+India,Chhattisgarh,Bilaspur,"Mangala, Bilaspur - NTPC",31-12-2025 08:00:00,22.08815,82.13737,CO,26,106,70
+India,Chandigarh,Chandigarh,"Sector 22, Chandigarh - CPCC",31-12-2025 08:00:00,30.735567,76.775714,NH3,14,26,21
+India,Chandigarh,Chandigarh,"Sector 22, Chandigarh - CPCC",31-12-2025 08:00:00,30.735567,76.775714,CO,70,118,92
+India,Chandigarh,Chandigarh,"Sector 22, Chandigarh - CPCC",31-12-2025 08:00:00,30.735567,76.775714,OZONE,5,90,14
+India,Chandigarh,Chandigarh,"Sector-25, Chandigarh - CPCC",31-12-2025 08:00:00,30.751462,76.762879,OZONE,1,36,2
+India,Bihar,Siwan,"Chitragupta Nagar, Siwan - BSPCB",31-12-2025 08:00:00,26.2271665,84.3570427,OZONE,18,18,18
+India,Bihar,Saharsa,"Police Line, Saharsa - BSPCB",31-12-2025 08:00:00,25.892357,86.590325,CO,38,48,43
+India,Delhi,Delhi,"Alipur, Delhi - DPCC",31-12-2025 08:00:00,28.815329,77.153010,NH3,1,43,12
+India,Delhi,Delhi,"Alipur, Delhi - DPCC",31-12-2025 08:00:00,28.815329,77.153010,CO,38,120,101
+India,Delhi,Delhi,"Anand Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.647622,77.3158090,PM10,312,500,425
+India,Delhi,Delhi,"Anand Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.647622,77.3158090,SO2,14,34,27
+India,Delhi,Delhi,"Ashok Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.695381,77.181665,CO,35,112,88
+India,Delhi,Delhi,"Aya Nagar, Delhi - IMD",31-12-2025 08:00:00,28.4706914,77.1099364,NO2,33,105,59
+India,Delhi,Delhi,"Bawana, Delhi - DPCC",31-12-2025 08:00:00,28.776200,77.051074,PM2.5,120,485,307
+India,Chhattisgarh,Kunjemura,"OP Jindal School, Kunjemura - CECB",31-12-2025 08:00:00,22.126650,83.483212,NO2,15,56,32
+India,Chhattisgarh,Raipur,"AIIMS, Raipur - CECB",31-12-2025 08:00:00,21.258815,81.578979,SO2,3,15,5
+India,Delhi,Delhi,"Ashok Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.695381,77.181665,PM2.5,320,492,411
+India,Delhi,Delhi,"Ashok Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.695381,77.181665,PM10,206,453,370
+India,Delhi,Delhi,"Ashok Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.695381,77.181665,NO2,36,109,71
+India,Chhattisgarh,Tumidih,"OP Jindal Industrial Park, Tumidih - CECB",31-12-2025 08:00:00,22.06631475,83.33820077,NO2,37,99,65
+India,Chhattisgarh,Tumidih,"OP Jindal Industrial Park, Tumidih - CECB",31-12-2025 08:00:00,22.06631475,83.33820077,OZONE,3,89,3
+India,Chhattisgarh,Raipur,"Bhatagaon New ISBT, Raipur - CECB",31-12-2025 08:00:00,21.219665,81.630094,NH3,2,2,2
+India,Chhattisgarh,Raipur,"Krishak Nagar, Raipur - CECB",31-12-2025 08:00:00,21.237755,81.705301,OZONE,NA,NA,NA
+India,Delhi,Delhi,"Bawana, Delhi - DPCC",31-12-2025 08:00:00,28.776200,77.051074,NH3,8,11,10
+India,Delhi,Delhi,"IIT Delhi, Delhi - IITM",31-12-2025 08:00:00,28.542460,77.191651,PM10,133,352,254
+India,Delhi,Delhi,"ITO, Delhi - CPCB",31-12-2025 08:00:00,28.628624,77.241060,PM10,153,476,350
+India,Delhi,Delhi,"ITO, Delhi - CPCB",31-12-2025 08:00:00,28.628624,77.241060,CO,20,124,94
+India,Delhi,Delhi,"Jahangirpuri, Delhi - DPCC",31-12-2025 08:00:00,28.732820,77.170633,PM2.5,346,500,423
+India,Delhi,Delhi,"Jahangirpuri, Delhi - DPCC",31-12-2025 08:00:00,28.732820,77.170633,OZONE,3,63,4
+India,Delhi,Delhi,"Mandir Marg, Delhi - DPCC",31-12-2025 08:00:00,28.636429,77.201067,NO2,61,146,97
+India,Delhi,Delhi,"Mandir Marg, Delhi - DPCC",31-12-2025 08:00:00,28.636429,77.201067,SO2,21,63,40
+India,Delhi,Delhi,"Mundka, Delhi - DPCC",31-12-2025 08:00:00,28.684678,77.076574,PM10,168,498,293
+India,Delhi,Delhi,"Mundka, Delhi - DPCC",31-12-2025 08:00:00,28.684678,77.076574,NO2,30,95,58
+India,Delhi,Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC",31-12-2025 08:00:00,28.580280,77.233829,OZONE,4,122,4
+India,Delhi,Delhi,"Lodhi Road, Delhi - IMD",31-12-2025 08:00:00,28.5918245,77.2273074,PM2.5,118,427,321
+India,Delhi,Delhi,"Lodhi Road, Delhi - IMD",31-12-2025 08:00:00,28.5918245,77.2273074,OZONE,7,40,10
+India,Delhi,Delhi,"DTU, Delhi - CPCB",31-12-2025 08:00:00,28.7500499,77.1112615,SO2,31,40,38
+India,Delhi,Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",31-12-2025 08:00:00,28.498571,77.264840,NH3,8,12,10
+India,Delhi,Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",31-12-2025 08:00:00,28.6811736,77.3025234,SO2,25,32,28
+India,Delhi,Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB",31-12-2025 08:00:00,28.6811736,77.3025234,OZONE,10,13,10
+India,Delhi,Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC",31-12-2025 08:00:00,28.498571,77.264840,CO,20,131,93
+India,Delhi,Delhi,"IGI Airport (T3), Delhi - IMD",31-12-2025 08:00:00,28.5627763,77.1180053,PM2.5,84,438,334
+India,Delhi,Delhi,"Dwarka-Sector 8, Delhi - DPCC ",31-12-2025 08:00:00,28.5710274,77.0719006,OZONE,5,68,7
+India,Delhi,Delhi,"Burari Crossing, Delhi - IMD",31-12-2025 08:00:00,28.7256504,77.2011573,OZONE,9,130,10
+India,Delhi,Delhi,"Okhla Phase-2, Delhi - DPCC",31-12-2025 08:00:00,28.530785,77.271255,OZONE,3,156,7
+India,Delhi,Delhi,"Patparganj, Delhi - DPCC",31-12-2025 08:00:00,28.623763,77.287209,PM2.5,267,500,427
+India,Delhi,Delhi,"Pusa, Delhi - DPCC",31-12-2025 08:00:00,28.639652,77.146275,NO2,40,144,95
+India,Delhi,Delhi,"Pusa, Delhi - DPCC",31-12-2025 08:00:00,28.639652,77.146275,NH3,11,26,20
+India,Delhi,Delhi,"Nehru Nagar, Delhi - DPCC",31-12-2025 08:00:00,28.567890,77.250515,PM10,129,500,371
+India,Delhi,Delhi,"Punjabi Bagh, Delhi - DPCC",31-12-2025 08:00:00,28.674045,77.131023,CO,20,122,62
+India,Delhi,Delhi,"Najafgarh, Delhi - DPCC",31-12-2025 08:00:00,28.570173,76.933762,PM10,108,318,177
+India,Delhi,Delhi,"Patparganj, Delhi - DPCC",31-12-2025 08:00:00,28.623763,77.287209,CO,104,172,149
+India,Delhi,Delhi,"NSIT Dwarka, Delhi - CPCB",31-12-2025 08:00:00,28.60909,77.0325413,CO,54,105,68
+India,Delhi,Delhi,"Nehru Nagar, Delhi - DPCC",31-12-2025 08:00:00,28.567890,77.250515,SO2,8,112,25
+India,Delhi,Delhi,"Najafgarh, Delhi - DPCC",31-12-2025 08:00:00,28.570173,76.933762,OZONE,3,9,4
+India,Delhi,Delhi,"Sirifort, Delhi - CPCB",31-12-2025 08:00:00,28.5504249,77.2159377,SO2,21,40,33
+India,Delhi,Delhi,"Sirifort, Delhi - CPCB",31-12-2025 08:00:00,28.5504249,77.2159377,OZONE,10,52,12
+India,Delhi,Delhi,"Sonia Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.710508,77.249485,NH3,10,15,12
+India,Delhi,Delhi,"Sonia Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.710508,77.249485,CO,100,121,106
+India,Delhi,Delhi,"Sonia Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.710508,77.249485,OZONE,1,138,2
+India,Gujarat,Ahmedabad,"Chandkheda, Ahmedabad - IITM",31-12-2025 08:00:00,23.107969,72.574648,NO2,24,158,77
+India,Gujarat,Ahmedabad,"Chandkheda, Ahmedabad - IITM",31-12-2025 08:00:00,23.107969,72.574648,CO,24,124,54
+India,Gujarat,Ahmedabad,"Gyaspur, Ahmedabad - IITM",31-12-2025 08:00:00,22.977134,72.553024,PM10,NA,NA,NA
+India,Delhi,Delhi,"Pusa, Delhi - IMD",31-12-2025 08:00:00,28.636110,77.173332,PM10,NA,NA,NA
+India,Delhi,Delhi,"Pusa, Delhi - IMD",31-12-2025 08:00:00,28.636110,77.173332,NO2,NA,NA,NA
+India,Delhi,Delhi,"R K Puram, Delhi - DPCC",31-12-2025 08:00:00,28.563262,77.186937,PM2.5,193,500,412
+India,Delhi,Delhi,"Shadipur, Delhi - CPCB",31-12-2025 08:00:00,28.6514781,77.1473105,PM2.5,364,500,437
+India,Delhi,Delhi,"Shadipur, Delhi - CPCB",31-12-2025 08:00:00,28.6514781,77.1473105,NH3,7,15,11
+India,Delhi,Delhi,"Shadipur, Delhi - CPCB",31-12-2025 08:00:00,28.6514781,77.1473105,SO2,16,32,21
+India,Gujarat,Ahmedabad,"Rakhial, Ahmedabad - IITM",31-12-2025 08:00:00,23.016834,72.625775,PM2.5,91,331,210
+India,Gujarat,Ahmedabad,"Rakhial, Ahmedabad - IITM",31-12-2025 08:00:00,23.016834,72.625775,PM10,119,186,146
+India,Gujarat,Ahmedabad,"Rakhial, Ahmedabad - IITM",31-12-2025 08:00:00,23.016834,72.625775,SO2,29,91,54
+India,Delhi,Delhi,"Vivek Vihar, Delhi - DPCC",31-12-2025 08:00:00,28.672342,77.315260,CO,36,129,78
+India,Delhi,Delhi,"R K Puram, Delhi - DPCC",31-12-2025 08:00:00,28.563262,77.186937,CO,4,192,138
+India,Delhi,Delhi,"Pusa, Delhi - IMD",31-12-2025 08:00:00,28.636110,77.173332,PM2.5,NA,NA,NA
+India,Gujarat,Ahmedabad,"SVPI Airport Hansol, Ahmedabad - IITM",31-12-2025 08:00:00,23.076793,72.627874,CO,28,117,77
+India,Gujarat,Ahmedabad,"SVPI Airport Hansol, Ahmedabad - IITM",31-12-2025 08:00:00,23.076793,72.627874,OZONE,1,52,1
+India,Gujarat,Ankleshwar,"GIDC, Ankleshwar - GPCB",31-12-2025 08:00:00,21.613267,73.010555,PM10,96,403,177
+India,Gujarat,Ahmedabad,"SAC ISRO Satellite, Ahmedabad - IITM",31-12-2025 08:00:00,23.023389,72.515201,CO,2,56,21
+India,Gujarat,Ahmedabad,"SVPI Airport Hansol, Ahmedabad - IITM",31-12-2025 08:00:00,23.076793,72.627874,PM2.5,90,212,155
+India,Gujarat,Ahmedabad,"SAC ISRO Satellite, Ahmedabad - IITM",31-12-2025 08:00:00,23.023389,72.515201,PM10,92,186,123
+India,Gujarat,Ahmedabad,"SAC ISRO Satellite, Ahmedabad - IITM",31-12-2025 08:00:00,23.023389,72.515201,SO2,6,64,15
+India,Gujarat,Ahmedabad,"SAC ISRO Bopal, Ahmedabad - IITM",31-12-2025 08:00:00,23.041137,72.456691,NH3,9,18,14
+India,Gujarat,Ahmedabad,"SAC ISRO Bopal, Ahmedabad - IITM",31-12-2025 08:00:00,23.041137,72.456691,OZONE,1,105,1
+India,Gujarat,Gandhinagar,"IIPHG Lekawada, Gandhinagar - IITM",31-12-2025 08:00:00,23.243639,72.68994,PM10,90,161,126
+India,Gujarat,Gandhinagar,"IIPHG Lekawada, Gandhinagar - IITM",31-12-2025 08:00:00,23.243639,72.68994,CO,26,103,64
+India,Gujarat,Gandhinagar,"Sector-10, Gandhinagar - GPCB",31-12-2025 08:00:00,23.221714,72.654328,NH3,2,4,3
+India,Gujarat,Vapi,"Phase-1 GIDC, Vapi - GPCB",31-12-2025 08:00:00,20.362421,72.918013,PM2.5,59,229,116
+India,Gujarat,Ankleshwar,"GIDC, Ankleshwar - GPCB",31-12-2025 08:00:00,21.613267,73.010555,NO2,22,28,23
+India,Haryana,Charkhi Dadri,"Mini Secretariat, Charkhi Dadri - HSPCB",31-12-2025 08:00:00,28.593883,76.270653,NO2,9,24,15
+India,Haryana,Charkhi Dadri,"Mini Secretariat, Charkhi Dadri - HSPCB",31-12-2025 08:00:00,28.593883,76.270653,SO2,10,11,10
+India,Haryana,Charkhi Dadri,"Mini Secretariat, Charkhi Dadri - HSPCB",31-12-2025 08:00:00,28.593883,76.270653,OZONE,14,17,16
+India,Haryana,Dharuhera,"Municipal Corporation Office, Dharuhera -  HSPCB",31-12-2025 08:00:00,28.206800,76.799700,PM2.5,171,458,345
+India,Haryana,Dharuhera,"Municipal Corporation Office, Dharuhera -  HSPCB",31-12-2025 08:00:00,28.206800,76.799700,NH3,5,15,11
+India,Haryana,Dharuhera,"Municipal Corporation Office, Dharuhera -  HSPCB",31-12-2025 08:00:00,28.206800,76.799700,CO,28,81,69
+India,Haryana,Bhiwani,"H.B. Colony, Bhiwani - HSPCB",31-12-2025 08:00:00,28.806223,76.141105,SO2,12,13,12
+India,Haryana,Bhiwani,"H.B. Colony, Bhiwani - HSPCB",31-12-2025 08:00:00,28.806223,76.141105,CO,10,14,12
+India,Haryana,Gurugram,"NISE Gwal Pahari, Gurugram - IMD",31-12-2025 08:00:00,28.422681,77.148944,CO,57,113,109
+India,Haryana,Gurugram,"Vikas Sadan, Gurugram - HSPCB",31-12-2025 08:00:00,28.4501238,77.0263051,OZONE,8,55,17
+India,Haryana,Bahadurgarh,"Arya Nagar, Bahadurgarh - HSPCB",31-12-2025 08:00:00,28.6701,76.9254,NO2,13,14,13
+India,Gujarat,Vatva,"Phase-4 GIDC, Vatva - GPCB",31-12-2025 08:00:00,22.969611,72.643500,OZONE,20,47,20
+India,Haryana,Gurugram,"Sector-51, Gurugram - HSPCB",31-12-2025 08:00:00,28.4227,77.0667,CO,14,32,24
+India,Haryana,Gurugram,"Sector-51, Gurugram - HSPCB",31-12-2025 08:00:00,28.4227,77.0667,NO2,4,10,6
+India,Gujarat,Vapi,"Phase-1 GIDC, Vapi - GPCB",31-12-2025 08:00:00,20.362421,72.918013,NH3,4,6,5
+India,Haryana,Manesar,"Sector-2 IMT, Manesar - HSPCB",31-12-2025 08:00:00,28.360699,76.936090,NO2,46,52,50
+India,Haryana,Manesar,"Sector-2 IMT, Manesar - HSPCB",31-12-2025 08:00:00,28.360699,76.936090,SO2,6,14,9
+India,Haryana,Narnaul,"Shastri Nagar, Narnaul - HSPCB",31-12-2025 08:00:00,28.060249,76.113115,PM10,37,244,162
+India,Haryana,Narnaul,"Shastri Nagar, Narnaul - HSPCB",31-12-2025 08:00:00,28.060249,76.113115,SO2,6,7,7
+India,Haryana,Narnaul,"Shastri Nagar, Narnaul - HSPCB",31-12-2025 08:00:00,28.060249,76.113115,CO,18,50,41
+India,Haryana,Palwal,"Shyam Nagar, Palwal - HSPCB",31-12-2025 08:00:00,28.1485564,77.3320667,PM10,84,114,105
+India,Haryana,Karnal,"Sector-12, Karnal - HSPCB",31-12-2025 08:00:00,29.695300,77.002700,SO2,6,6,6
+India,Haryana,Kurukshetra,"Sector-7, Kurukshetra - HSPCB",31-12-2025 08:00:00,29.966942,76.875879,CO,41,66,48
+India,Haryana,Mandikhera,"General Hospital, Mandikhera(Nuh) - HSPCB",31-12-2025 08:00:00,27.9002,76.9938,PM10,NA,NA,NA
+India,Haryana,Mandikhera,"General Hospital, Mandikhera(Nuh) - HSPCB",31-12-2025 08:00:00,27.9002,76.9938,NO2,20,24,22
+India,Haryana,Panchkula,"Sector-6, Panchkula - HSPCB ",31-12-2025 08:00:00,30.7057778,76.8531805555555,PM2.5,146,400,306
+India,Haryana,Panipat,"Sector-18, Panipat - HSPCB",31-12-2025 08:00:00,29.432304,76.972765,PM10,111,292,180
+India,Haryana,Panipat,"Sector-18, Panipat - HSPCB",31-12-2025 08:00:00,29.432304,76.972765,NH3,2,3,3
+India,Haryana,Panchgaon,"Amity University, Panchgaon - IITM",31-12-2025 08:00:00,28.3153,76.9143,PM2.5,1,375,93
+India,Haryana,Panchgaon,"Amity University, Panchgaon - IITM",31-12-2025 08:00:00,28.3153,76.9143,SO2,5,17,9
+India,Haryana,Panchgaon,"Amity University, Panchgaon - IITM",31-12-2025 08:00:00,28.3153,76.9143,CO,1,70,47
+India,Haryana,Jind,"Police Lines, Jind - HSPCB",31-12-2025 08:00:00,29.307814,76.337619,NO2,32,53,44
+India,Haryana,Jind,"Police Lines, Jind - HSPCB",31-12-2025 08:00:00,29.307814,76.337619,SO2,1,2,1
+India,Haryana,Rohtak,"MD University, Rohtak - HSPCB",31-12-2025 08:00:00,28.52123,76.37138,PM10,39,143,83
+India,Haryana,Hisar,"Urban Estate-II, Hisar - HSPCB",31-12-2025 08:00:00,29.140560,75.744941,SO2,8,15,11
+India,Haryana,Sonipat,"Murthal, Sonipat - HSPCB",31-12-2025 08:00:00,29.027200,77.062100,PM10,89,167,130
+India,Haryana,Sirsa,"F-Block, Sirsa - HSPCB",31-12-2025 08:00:00,29.536400,75.015800,CO,48,94,75
+India,Jammu_and_Kashmir,Srinagar,"Rajbagh, Srinagar - JKPCC",31-12-2025 08:00:00,34.066206,74.819820,OZONE,NA,NA,NA
+India,Jharkhand,Dhanbad,"Sardar Patel Nagar, Dhanbad - JSPCB",31-12-2025 08:00:00,23.80569,86.44268,PM10,133,411,208
+India,Karnataka,Bagalkot,"Vidayagiri, Bagalkot - KSPCB",31-12-2025 08:00:00,16.172806,75.659694,OZONE,12,12,12
+India,Karnataka,Belgaum,"Ramteerth Nagar, Belgaum - KSPCB",31-12-2025 08:00:00,15.888653,74.541751,NO2,27,144,66
+India,Karnataka,Belgaum,"Ramteerth Nagar, Belgaum - KSPCB",31-12-2025 08:00:00,15.888653,74.541751,NH3,9,11,10
+India,Himachal Pradesh,Baddi,"HIMUDA Complex Phase-1, Baddi - HPPCB",31-12-2025 08:00:00,30.943887,76.801991,SO2,22,105,55
+India,Himachal Pradesh,Baddi,"HIMUDA Complex Phase-1, Baddi - HPPCB",31-12-2025 08:00:00,30.943887,76.801991,CO,85,109,93
+India,Jharkhand,Dhanbad,"Sardar Patel Nagar, Dhanbad - JSPCB",31-12-2025 08:00:00,23.80569,86.44268,CO,1,8,1
+India,Jharkhand,Dhanbad,"Sardar Patel Nagar, Dhanbad - JSPCB",31-12-2025 08:00:00,23.80569,86.44268,OZONE,1,25,6
+India,Haryana,Yamuna Nagar,"Gobind Pura, Yamuna Nagar - HSPCB",31-12-2025 08:00:00,30.1480566,77.2893471,NO2,36,38,37
+India,Haryana,Yamuna Nagar,"Gobind Pura, Yamuna Nagar - HSPCB",31-12-2025 08:00:00,30.1480566,77.2893471,OZONE,38,38,38
+India,Jammu_and_Kashmir,Srinagar,"Khunmoh, Srinagar - JKPCC",31-12-2025 08:00:00,34.06313,74.96017,PM2.5,79,105,91
+India,Karnataka,Bengaluru,"BTM Layout, Bengaluru - CPCB",31-12-2025 08:00:00,12.9135218,77.5950804,SO2,14,15,14
+India,Haryana,Sonipat,"Murthal, Sonipat - HSPCB",31-12-2025 08:00:00,29.027200,77.062100,NH3,16,23,18
+India,Karnataka,Bengaluru,"Hebbal, Bengaluru - KSPCB",31-12-2025 08:00:00,13.029152,77.585901,SO2,4,10,7
+India,Karnataka,Bengaluru,"Jayanagar 5th Block, Bengaluru - KSPCB",31-12-2025 08:00:00,12.920984,77.584908,PM10,109,232,133
+India,Karnataka,Bengaluru,"Jigani, Bengaluru - KSPCB",31-12-2025 08:00:00,12.7816279,77.6299145,PM10,41,155,108
+India,Karnataka,Bengaluru,"Jigani, Bengaluru - KSPCB",31-12-2025 08:00:00,12.7816279,77.6299145,SO2,15,15,15
+India,Karnataka,Bengaluru,"Peenya, Bengaluru - CPCB",31-12-2025 08:00:00,13.0270199,77.494094,NO2,23,29,26
+India,Karnataka,Bengaluru,"Peenya, Bengaluru - CPCB",31-12-2025 08:00:00,13.0270199,77.494094,NH3,4,4,4
+India,Karnataka,Bengaluru,"Shivapura_Peenya, Bengaluru - KSPCB",31-12-2025 08:00:00,13.0246342,77.5080115,PM10,115,213,150
+India,Karnataka,Bengaluru,"City Railway Station, Bengaluru - KSPCB",31-12-2025 08:00:00,12.9756843,77.5660749,NO2,31,34,32
+India,Karnataka,Chamarajanagar,"Urban, Chamarajanagar - KSPCB",31-12-2025 08:00:00,11.55358,76.55521,PM10,25,57,41
+India,Karnataka,Bengaluru,"BTM Layout, Bengaluru - CPCB",31-12-2025 08:00:00,12.9135218,77.5950804,CO,45,61,50
+India,Karnataka,Bengaluru,"Silk Board, Bengaluru - KSPCB",31-12-2025 08:00:00,12.917348,77.622813,CO,22,40,24
+India,Karnataka,Bengaluru,"Silk Board, Bengaluru - KSPCB",31-12-2025 08:00:00,12.917348,77.622813,SO2,2,35,9
+India,Karnataka,Tumakuru,"Thimmalapura, Tumakuru - KSPCB",31-12-2025 08:00:00,13.377516,77.099072,PM10,108,143,124
+India,Karnataka,Tumakuru,"Thimmalapura, Tumakuru - KSPCB",31-12-2025 08:00:00,13.377516,77.099072,CO,52,55,53
+India,Karnataka,Tumakuru,"Thimmalapura, Tumakuru - KSPCB",31-12-2025 08:00:00,13.377516,77.099072,OZONE,23,23,23
+India,Karnataka,Yadgir,"Collector Office, Yadgir - KSPCB",31-12-2025 08:00:00,16.7602,77.1428,NO2,4,26,10
+India,Karnataka,Yadgir,"Collector Office, Yadgir - KSPCB",31-12-2025 08:00:00,16.7602,77.1428,SO2,5,16,11
+India,Karnataka,Yadgir,"Collector Office, Yadgir - KSPCB",31-12-2025 08:00:00,16.7602,77.1428,OZONE,18,19,18
+India,Karnataka,Mysuru,"Hebbal 1st Stage, Mysuru - KSPCB",31-12-2025 08:00:00,12.21041,76.37376,NO2,17,23,20
+India,Karnataka,Shivamogga,"Vinoba Nagara, Shivamogga - KSPCB",31-12-2025 08:00:00,13.940000,75.555917,PM10,40,71,52
+India,Karnataka,Shivamogga,"Vinoba Nagara, Shivamogga - KSPCB",31-12-2025 08:00:00,13.940000,75.555917,SO2,1,8,3
+India,Karnataka,Tumakuru,"Thimmalapura, Tumakuru - KSPCB",31-12-2025 08:00:00,13.377516,77.099072,PM2.5,95,178,132
+India,Karnataka,Hubballi,"Lingaraj Nagar, Hubballi - KSPCB",31-12-2025 08:00:00,15.3714823,75.1160168,OZONE,10,18,18
+India,Karnataka,Kalaburagi,"Mahatma Basaveswar Colony, Kalaburgi - KSPCB",31-12-2025 08:00:00,17.336318,76.847397,PM2.5,19,69,41
+India,Karnataka,Kalaburagi,"Mahatma Basaveswar Colony, Kalaburgi - KSPCB",31-12-2025 08:00:00,17.336318,76.847397,NH3,3,4,3
+India,Karnataka,Kalaburagi,"Mahatma Basaveswar Colony, Kalaburgi - KSPCB",31-12-2025 08:00:00,17.336318,76.847397,CO,47,102,59
+India,Kerala,Thiruvananthapuram,"Kariavattom, Thiruvananthapuram - Kerala PCB",31-12-2025 08:00:00,8.563700,76.886500,PM10,88,131,112
+India,Kerala,Thiruvananthapuram,"Kariavattom, Thiruvananthapuram - Kerala PCB",31-12-2025 08:00:00,8.563700,76.886500,OZONE,36,37,36
+India,Karnataka,Hubballi,"Lingaraj Nagar, Hubballi - KSPCB",31-12-2025 08:00:00,15.3714823,75.1160168,PM2.5,40,47,44
+India,Karnataka,Hubballi,"Lingaraj Nagar, Hubballi - KSPCB",31-12-2025 08:00:00,15.3714823,75.1160168,NH3,1,2,2
+India,Karnataka,Kalaburagi,"Mahatma Basaveswar Colony, Kalaburgi - KSPCB",31-12-2025 08:00:00,17.336318,76.847397,OZONE,12,19,14
+India,Karnataka,Mangalore,"Kadri, Mangalore - KSPCB",31-12-2025 08:00:00,12.889250,74.853000,NH3,NA,NA,NA
+India,Kerala,Kannur,"Thavakkara, Kannur - Kerala PCB",31-12-2025 08:00:00,11.875000,75.373200,NH3,2,2,2
+India,Madhya Pradesh,Dewas,"Bhopal Chauraha, Dewas - MPPCB",31-12-2025 08:00:00,22.9682591,76.064118,PM10,67,217,129
+India,Madhya Pradesh,Gwalior,"City Center, Gwalior - MPPCB",31-12-2025 08:00:00,26.203442,78.193251,PM10,80,239,131
+India,Madhya Pradesh,Gwalior,"City Center, Gwalior - MPPCB",31-12-2025 08:00:00,26.203442,78.193251,NO2,19,113,44
+India,Madhya Pradesh,Gwalior,"City Center, Gwalior - MPPCB",31-12-2025 08:00:00,26.203442,78.193251,SO2,7,49,36
+India,Madhya Pradesh,Gwalior,"Deen Dayal Nagar, Gwalior - MPPCB",31-12-2025 08:00:00,26.259242,78.216432,PM2.5,69,412,213
+India,Madhya Pradesh,Gwalior,"Deen Dayal Nagar, Gwalior - MPPCB",31-12-2025 08:00:00,26.259242,78.216432,NO2,25,93,48
+India,Madhya Pradesh,Gwalior,"Deen Dayal Nagar, Gwalior - MPPCB",31-12-2025 08:00:00,26.259242,78.216432,NH3,7,12,9
+India,Madhya Pradesh,Gwalior,"Deen Dayal Nagar, Gwalior - MPPCB",31-12-2025 08:00:00,26.259242,78.216432,SO2,1,18,9
+India,Kerala,Thrissur,"Corporation Ground, Thrissur - Kerala PCB",31-12-2025 08:00:00,10.532400,76.215900,OZONE,30,31,30
+India,Madhya Pradesh,Bhopal,"Idgah Hills, Bhopal - MPPCB",31-12-2025 08:00:00,23.264759,77.381568,PM2.5,77,350,190
+India,Madhya Pradesh,Gwalior,"Maharaj Bada, Gwalior - MPPCB",31-12-2025 08:00:00,26.200388,78.147714,OZONE,16,55,16
+India,Madhya Pradesh,Indore,"Airport Area, Indore - IMC",31-12-2025 08:00:00,22.7289,75.8076,PM2.5,42,262,137
+India,Madhya Pradesh,Gwalior,"Maharaj Bada, Gwalior - MPPCB",31-12-2025 08:00:00,26.200388,78.147714,PM10,77,406,154
+India,Madhya Pradesh,Gwalior,"Maharaj Bada, Gwalior - MPPCB",31-12-2025 08:00:00,26.200388,78.147714,NO2,21,116,56
+India,Madhya Pradesh,Gwalior,"Maharaj Bada, Gwalior - MPPCB",31-12-2025 08:00:00,26.200388,78.147714,NH3,6,6,6
+India,Madhya Pradesh,Bhopal,"Idgah Hills, Bhopal - MPPCB",31-12-2025 08:00:00,23.264759,77.381568,NO2,15,77,36
+India,Madhya Pradesh,Bhopal,"Idgah Hills, Bhopal - MPPCB",31-12-2025 08:00:00,23.264759,77.381568,NH3,5,7,6
+India,Madhya Pradesh,Bhopal,"Paryavaran Parisar, Bhopal - MPPCB",31-12-2025 08:00:00,23.210494,77.425409,CO,4,109,37
+India,Madhya Pradesh,Damoh,"Shrivastav Colony, Damoh - MPPCB",31-12-2025 08:00:00,23.81748678,79.446246,SO2,1,21,8
+India,Madhya Pradesh,Bhopal,"T T Nagar, Bhopal - MPPCB",31-12-2025 08:00:00,23.233584,77.400574,NO2,61,149,107
+India,Madhya Pradesh,Indore,"Airport Area, Indore - IMC",31-12-2025 08:00:00,22.7289,75.8076,OZONE,7,50,10
+India,Madhya Pradesh,Jabalpur,"Suhagi, Jabalpur - JMC",31-12-2025 08:00:00,23.218135,79.957770,PM10,25,92,49
+India,Madhya Pradesh,Jabalpur,"Suhagi, Jabalpur - JMC",31-12-2025 08:00:00,23.218135,79.957770,NO2,18,129,48
+India,Madhya Pradesh,Katni,"Gole Bazar, Katni - MPPCB",31-12-2025 08:00:00,23.50016,80.23284,OZONE,10,33,13
+India,Madhya Pradesh,Mandideep,"Sector-D Industrial Area, Mandideep - MPPCB",31-12-2025 08:00:00,23.108440,77.511428,CO,16,101,79
+India,Madhya Pradesh,Mandideep,"Sector-D Industrial Area, Mandideep - MPPCB",31-12-2025 08:00:00,23.108440,77.511428,OZONE,3,81,4
+India,Madhya Pradesh,Pithampur,"Sector-2 Industrial Area, Pithampur - MPPCB",31-12-2025 08:00:00,22.624758,75.675238,PM2.5,79,373,184
+India,Madhya Pradesh,Sagar,"Civil Lines, Sagar - MPPCB",31-12-2025 08:00:00,23.838586,78.759431,PM10,46,213,93
+India,Madhya Pradesh,Sagar,"Civil Lines, Sagar - MPPCB",31-12-2025 08:00:00,23.838586,78.759431,NO2,8,86,25
+India,Madhya Pradesh,Sagar,"Civil Lines, Sagar - MPPCB",31-12-2025 08:00:00,23.838586,78.759431,OZONE,31,62,56
+India,Madhya Pradesh,Sagar,"Deen Dayal Nagar, Sagar - MPPCB",31-12-2025 08:00:00,23.8640158,78.80289321,PM2.5,13,274,88
+India,Madhya Pradesh,Satna,"Bandhavgar Colony, Satna - Birla Cement",31-12-2025 08:00:00,24.58434363,80.8549414,PM2.5,52,55,54
+India,Madhya Pradesh,Satna,"Bandhavgar Colony, Satna - Birla Cement",31-12-2025 08:00:00,24.58434363,80.8549414,OZONE,1,34,4
+India,Maharashtra,Amravati,"Shivneri Colony, Amravati - MPCB",31-12-2025 08:00:00,20.9402359,77.7895248,OZONE,3,73,15
+India,Maharashtra,Amravati,"Shri Shivaji Science College, Amravati - MPCB",31-12-2025 08:00:00,20.939198,77.765701,NH3,1,16,6
+India,Maharashtra,Amravati,"Shri Shivaji Science College, Amravati - MPCB",31-12-2025 08:00:00,20.939198,77.765701,SO2,22,43,30
+India,Madhya Pradesh,Indore,"Maguda Nagar, Indore - IMC",31-12-2025 08:00:00,22.7524,75.8872,SO2,NA,NA,NA
+India,Madhya Pradesh,Indore,"Maguda Nagar, Indore - IMC",31-12-2025 08:00:00,22.7524,75.8872,OZONE,18,40,35
+India,Madhya Pradesh,Jabalpur,"Govindh Bhavan Colony, Jabalpur - JMC",31-12-2025 08:00:00,23.163174,79.973061,NO2,16,23,19
+India,Maharashtra,Akola,"Ramdaspeth, Akola - MPCB",31-12-2025 08:00:00,20.719516,77.000253,CO,14,84,25
+India,Maharashtra,Amravati,"Shivneri Colony, Amravati - MPCB",31-12-2025 08:00:00,20.9402359,77.7895248,PM10,67,142,95
+India,Maharashtra,Aurangabad,"MIDC Chilkalthana, Aurangabad - MPCB",31-12-2025 08:00:00,19.875620,75.387310,NH3,NA,NA,NA
+India,Maharashtra,Aurangabad,"MIDC Chilkalthana, Aurangabad - MPCB",31-12-2025 08:00:00,19.875620,75.387310,OZONE,NA,NA,NA
+India,Madhya Pradesh,Pithampur,"Sector-2 Industrial Area, Pithampur - MPPCB",31-12-2025 08:00:00,22.624758,75.675238,CO,28,62,39
+India,Madhya Pradesh,Jabalpur,"Govindh Bhavan Colony, Jabalpur - JMC",31-12-2025 08:00:00,23.163174,79.973061,OZONE,18,20,20
+India,Maharashtra,Ahmednagar,"Tarakpur, Ahmednagar - MPCB",31-12-2025 08:00:00,19.10122,74.73339,PM10,54,200,110
+India,Maharashtra,Mahad,"Kamble Tarf Birwadi, Mahad - MPCB",31-12-2025 08:00:00,18.1023399,73.4783687,NO2,12,170,41
+India,Maharashtra,Mahad,"Kamble Tarf Birwadi, Mahad - MPCB",31-12-2025 08:00:00,18.1023399,73.4783687,NH3,2,7,5
+India,Maharashtra,Mahad,"Kamble Tarf Birwadi, Mahad - MPCB",31-12-2025 08:00:00,18.1023399,73.4783687,CO,5,88,18
+India,Maharashtra,Malegaon,"Mahesh Nagar, Malegaon - MPCB",31-12-2025 08:00:00,20.555712,74.529236,SO2,19,97,30
+India,Maharashtra,Mira-Bhayandar,"Bhayandar West, Mira-Bhayandar - MPCB",31-12-2025 08:00:00,19.296481,72.840923,NO2,20,99,51
+India,Maharashtra,Mira-Bhayandar,"Bhayandar West, Mira-Bhayandar - MPCB",31-12-2025 08:00:00,19.296481,72.840923,CO,23,66,52
+India,Maharashtra,Mumbai,"Bandra Kurla Complex, Mumbai - IITM",31-12-2025 08:00:00,19.053536,72.84643,NO2,NA,NA,NA
+India,Maharashtra,Kalyan,"Khadakpada, Kalyan - MPCB",31-12-2025 08:00:00,19.25292,73.142019,PM2.5,60,275,98
+India,Maharashtra,Kalyan,"Pimpleshwar Mandir, Kalyan - MPCB",31-12-2025 08:00:00,19.192056,72.9585188,PM10,134,223,173
+India,Maharashtra,Kalyan,"Pimpleshwar Mandir, Kalyan - MPCB",31-12-2025 08:00:00,19.192056,72.9585188,OZONE,1,120,2
+India,Maharashtra,Kolhapur,"Shivaji University, Kolhapur - MPCB",31-12-2025 08:00:00,16.6870449,74.2505872,OZONE,1,61,4
+India,Maharashtra,Belapur,"CBD Belapur, Belapur - MPCB",31-12-2025 08:00:00,19.0243902,73.0406721,PM10,113,159,128
+India,Maharashtra,Belapur,"CBD Belapur, Belapur - MPCB",31-12-2025 08:00:00,19.0243902,73.0406721,NO2,19,52,28
+India,Maharashtra,Belapur,"CBD Belapur, Belapur - MPCB",31-12-2025 08:00:00,19.0243902,73.0406721,NH3,1,1,1
+India,Maharashtra,Bhiwandi,"Gokul Nagar, Bhiwandi - MPCB",31-12-2025 08:00:00,19.309073,73.057223,PM10,128,178,150
+India,Maharashtra,Chandrapur,"Chauhan Colony, Chandrapur - MPCB",31-12-2025 08:00:00,19.962900,79.298714,PM2.5,32,170,74
+India,Maharashtra,Chandrapur,"MIDC Khutala, Chandrapur - MPCB",31-12-2025 08:00:00,19.9775302,79.2337086,NH3,7,20,12
+India,Maharashtra,Boisar,"Khaira, Boisar - MPCB",31-12-2025 08:00:00,19.786089,72.757971,SO2,4,19,10
+India,Maharashtra,Boisar,"Khaira, Boisar - MPCB",31-12-2025 08:00:00,19.786089,72.757971,CO,19,92,33
+India,Maharashtra,Mumbai,"Bandra Kurla Complex, Mumbai - MPCB",31-12-2025 08:00:00,19.065931,72.862131,OZONE,1,94,5
+India,Maharashtra,Jalgaon,"Prabhat Colony, Jalgaon - MPCB",31-12-2025 08:00:00,21.001264,75.565602,SO2,NA,NA,NA
+India,Maharashtra,Dhule,"Deopur, Dhule - MPCB",31-12-2025 08:00:00,20.918946,74.776388,SO2,10,24,16
+India,Maharashtra,Latur,"Sawe Wadi, Latur - MPCB",31-12-2025 08:00:00,18.39963,76.57452,SO2,1,8,4
+India,Maharashtra,Mumbai,"Borivali East, Mumbai - MPCB",31-12-2025 08:00:00,19.2243333,72.8658113,CO,16,20,18
+India,Maharashtra,Mumbai,"Byculla, Mumbai - BMC",31-12-2025 08:00:00,18.9767,72.8380,SO2,24,29,26
+India,Maharashtra,Mumbai,"Chakala-Andheri East, Mumbai - IITM",31-12-2025 08:00:00,19.11074,72.86084,PM10,102,146,126
+India,Maharashtra,Mumbai,"Chembur, Mumbai - MPCB",31-12-2025 08:00:00,19.0364585,72.8954371,CO,26,62,43
+India,Maharashtra,Mumbai,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",31-12-2025 08:00:00,19.10078,72.87462,PM2.5,86,192,119
+India,Maharashtra,Mumbai,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",31-12-2025 08:00:00,19.10078,72.87462,OZONE,7,8,7
+India,Maharashtra,Mumbai,"Colaba, Mumbai - MPCB",31-12-2025 08:00:00,18.910000,72.820000,PM2.5,NA,NA,NA
+India,Andhra_Pradesh,Amaravati,"Secretariat, Amaravati - APPCB",31-12-2025 08:00:00,16.5150833,80.5181667,CO,31,52,49
+India,Andhra_Pradesh,Anantapur,"Gulzarpet, Anantapur - APPCB",31-12-2025 08:00:00,14.675886,77.593027,SO2,8,16,10
+India,Andhra_Pradesh,Anantapur,"Gulzarpet, Anantapur - APPCB",31-12-2025 08:00:00,14.675886,77.593027,CO,13,34,17
+India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",31-12-2025 08:00:00,13.204880,79.097889,CO,15,42,17
+India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB",31-12-2025 08:00:00,13.204880,79.097889,OZONE,49,67,52
+India,Andhra_Pradesh,Tirumala,"Toll Gate, Tirumala - APPCB",31-12-2025 08:00:00,13.67,79.35,SO2,5,8,6
+India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB",31-12-2025 08:00:00,13.615387,79.409230,PM10,12,265,90
+India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB",31-12-2025 08:00:00,16.9872867,81.7363176,PM2.5,241,310,285
+India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",31-12-2025 08:00:00,16.509717,80.612222,PM10,72,140,92
+India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB",31-12-2025 08:00:00,16.509717,80.612222,OZONE,8,44,15
+India,Andhra_Pradesh,Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB",31-12-2025 08:00:00,17.72,83.3,OZONE,4,97,18
+India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB",31-12-2025 08:00:00,13.615387,79.409230,OZONE,15,24,15
+India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB",31-12-2025 08:00:00,27.103358,93.679645,OZONE,5,6,6
+India,Andhra_Pradesh,Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB",31-12-2025 08:00:00,17.72,83.3,NH3,4,4,4
